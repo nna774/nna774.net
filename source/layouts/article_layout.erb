@@ -1,0 +1,17 @@
+<% wrap_layout :blog_layout do %>
+  <article>
+    <div class="articleMeta">
+      <time pubdate datetime="<%= current_article.date %>"><%= current_article.date.strftime('%Y/%m/%d %R') %></time>
+      <a rel="author" href="/about" >NoNameA 774<a>
+      <a href="http://nna774.net<%= current_article.url %>">parmalink</a>
+      <span class="socialBookmarks">
+        <a href="http://b.hatena.ne.jp/entry/"http://nna774.net<%= current_article.url %>" class="hatena-bookmark-button" data-hatena-bookmark-title="<%= current_article.title %>" data-hatena-bookmark-layout="standard-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://nna774.net<%= current_article.url %>" data-via="nonamea774" data-lang="ja">ツイート</a>
+      </span>
+  
+  </a>
+
+    </div>
+    <%= yield %>
+  </article>
+<% end %>

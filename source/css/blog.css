@@ -1,0 +1,52 @@
+body{
+     text-align: center;
+}
+
+
+header > a:link  {
+    color:#000;
+}
+header > a:visited {
+    color:#000;
+}
+
+article {
+    background-color: #afa;
+
+    border-bottom: 1px;
+    border-color: gray;
+    border-style: outset;
+
+    padding: 5px;
+
+    margin: 10px auto;
+}
+
+#wrap {
+    width:96%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#main {
+    width: 85%;
+    float: right;
+}
+
+#sideBar {
+    float: left;
+    width: 15%;
+}
+
+footer{
+    width: 100%;
+    border-style: none;
+    clear: both;
+    text-align: left;
+}
+
+.articleMeta{
+    background-color: #eee;
+    font-size: small;
+}

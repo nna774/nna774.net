@@ -1,0 +1,47 @@
+header{
+    background-color: #8f8;
+}
+
+#itWorks {
+    text-align: center;
+}
+
+#scratch {
+    font-size: small;
+    color: purple;
+}
+
+body {
+    background-color: #9f9;
+}
+
+#mainWrap {
+    background-color: #afa;
+}
+
+#pageName{
+    color: black;
+}
+
+section {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding: 5px;
+}
+
+footer {
+    width: auto;
+
+    background-color: #afa;
+
+    border-top: double;
+    border-color: #111;
+
+    margin-top: 30px;
+    padding-top: 5px;
+}
