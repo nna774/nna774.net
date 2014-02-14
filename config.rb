@@ -69,7 +69,8 @@ end
 
 activate :livereload
 activate :directory_indexes
-# page "/blog/*", :directory_index => false
+page "/blog/tag.html", :directory_index => false
+page "/blog/calendar.html", :directory_index => false
 
 Time.zone = "Tokyo"
 
