@@ -1,6 +1,7 @@
 <% wrap_layout :blog_layout do %>
   <article>
     <div class="articleMeta">
+      <h2 id="articleTitle"><%= current_article.title %></h2>
       <time pubdate datetime="<%= current_article.date %>"><%= current_article.date.strftime('%Y/%m/%d %R') %></time>
       <a rel="author" href="/about" >NoNameA 774<a>
       <a href="http://nna774.net<%= current_article.url %>">parmalink</a>
