@@ -23,7 +23,7 @@ article {
 }
 
 #wrap {
-    width:96%;
+    width:98%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -32,11 +32,15 @@ article {
 #main {
     width: 85%;
     float: right;
+
+    margin-left: 0px;
 }
 
-#sideBar {
+#sidebar {
     float: left;
     width: 15%;
+
+    /* margin-right: 40px; */
 }
 
 footer{
@@ -50,3 +54,4 @@ footer{
     background-color: #eee;
     font-size: small;
 }
+
