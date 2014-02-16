@@ -2,16 +2,14 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "いっと☆わーくす！" %></title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <%= stylesheet_link_tag "default" %>
-    <!-- <%= javascript_include_tag  "all" %> -->
     <% if current_page.url == "/" %>
-      <meta property="og:type" content="website"/>
+      <meta property="og:type" content="website" />
     <% else %>
-      <meta property="og:type" content="article"/>
+      <meta property="og:type" content="article" />
     <% end %>
   </head>
   
@@ -28,11 +26,7 @@
     <%= yield %>
 
     <footer>
-      <address>
-        NoNameA 774 (<a href="https://twitter.com/nonamea774">nonamea774</a>@nnn77) &lt;<a href="mailto:nonamea774@gmail.com">nonamea774@gmail.com</a>&gt;<br />
-        KeyID: <a href="http://pgp.nic.ad.jp/pks/lookup?op=index&amp;search=0x0C3E3AB2&amp;fingerprint=on">0x0C3E3AB2</a><br />
-        <a href="https://gist.github.com/nna774/8337711">fingerprint: 674A 287A 21D2 2431 AD8F D328 AEF3 C3C7 0C3E 3AB2</a>
-      </address>
+      <%= partial "address" %>
     </footer>
   </body>
 </html>
