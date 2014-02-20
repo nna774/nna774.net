@@ -1,3 +1,4 @@
+# coding: utf-8
 ###
 # Compass
 ###
@@ -61,9 +62,10 @@ configure :build do
   # set :http_prefix, "/Content/images/"
   activate :minify_css
   activate :minify_javascript
-  activate :minify_html
+  activate :minify_html, :remove_http_protocol => false, :remove_https_protocol => true
   activate :gzip
   activate :asset_hash
+  page "*.png", :asset_hash => false
 end
 
 
@@ -80,7 +82,7 @@ activate :blog do |blog|
 
   blog.permalink = "{year}/{month}/{day}/{title}"
   # Matcher for blog source files
-  blog.sources = "{year}-{month}-{day}-{title}"
+  blog.sources = "{year}/{month}/{day}-{title}"
   blog.taglink = "tags/{tag}.html"
   blog.layout = "article_layout"
   blog.summary_separator = /(READMORE)/
@@ -97,7 +99,7 @@ activate :blog do |blog|
   # Enable pagination
   blog.paginate = true
   blog.per_page = 10
-  blog.page_link = "blog/page/{num}"
+  blog.page_link = "page/{num}"
 end
 
 page "/blog/feed.xml", layout: false
