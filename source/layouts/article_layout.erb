@@ -1,18 +1,31 @@
 <% wrap_layout :blog_layout do %>
-<span id="articleChain">
+<p class="articleChain">
   <a
   <% if current_article.previous_article %>
-     href="<%= current_article.previous_article %>"
+     href="<%= current_article.previous_article.url %>" rel="prev"
   <% end %>
   >&lt;&lt; 過去の記事</a>
   <a
   <% if current_article.next_article %>
-    href="<%= current_article.next_article %>"
+    href="<%= current_article.next_article.url %>" rel="next"
   <% end %>
   >未来の記事 &gt;&gt;</a>
-</span>
+</p>
 <article>
   <%= partial("blog/articleHeader", :locals => { :current_article => current_article }) %>
   <%= yield %>
 </article>
+<p class="articleChain">
+  <a
+  <% if current_article.previous_article %>
+     href="<%= current_article.previous_article.url %>" rel="prev"
+  <% end %>
+  >&lt;&lt; 過去の記事</a>
+  <a
+  <% if current_article.next_article %>
+    href="<%= current_article.next_article.url %>" rel="next"
+  <% end %>
+  >未来の記事 &gt;&gt;</a>
+</p>
+
 <% end %>

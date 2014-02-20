@@ -32,15 +32,11 @@ article {
 #main {
     width: 85%;
     float: right;
-
-    margin-left: 0px;
 }
 
-#sidebar {
-    float: left;
+#sideBar {
     width: 15%;
-
-    /* margin-right: 40px; */
+    float: right;
 }
 
 footer{
@@ -55,3 +51,6 @@ footer{
     font-size: small;
 }
 
+.articleChain, .pageChain{
+    text-align: center;
+}
