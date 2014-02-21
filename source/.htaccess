@@ -1,22 +1,36 @@
-AddEncoding gzip .gz
- 
 RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R]
+
 RewriteCond %{HTTP:Accept-encoding} gzip
-RewriteCond %{HTTP_USER_AGENT} !Konqueror
 RewriteCond %{REQUEST_FILENAME}.gz -f
 RewriteRule ^(.*)\.css$ $1.css.gz [QSA,L]
 RewriteRule ^(.*)\.js$ $1.js.gz [QSA,L]
 RewriteRule ^(.*)\.html$ $1.html.gz [QSA,L]
 
-<Files *.css.gz>
-ForceType text/css
-</Files>
-<Files *.js.gz>
-ForceType application/javascript
-</Files>
-<Files *.html.gz>
-ForceType text/html
-</Files>
+<FilesMatch "\.css\.gz$">
+  ForceType   text/css
+  AddEncoding gzip .gz
+</FilesMatch>
+ 
+<FilesMatch "\.js\.gz$">
+  ForceType   application/javascript
+  AddEncoding gzip .gz
+</FilesMatch>
 
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+<FilesMatch "\.html\.gz$">
+  ForceType   text/html
+  AddEncoding gzip .gz
+</FilesMatch>
+
+ExpiresActive On
+
+ExpiresByType image/png  "access plus 30 days"
+ExpiresByType image/gif  "access plus 30 days"
+ExpiresByType image/jpeg "access plus 30 days"
+
+ExpiresByType application/javascript "access plus 60 days"
+ExpiresByType text/css "access plus 60 days"
+
+#Header append Vary Accept-Encoding
