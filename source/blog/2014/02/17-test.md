@@ -12,5 +12,5 @@ tags:
 
 いちおうこの画像の元画像です。
 
-<a href="https://www.flickr.com/photos/nna774/7308889078/" title="アイコン by nna_774, on Flickr"><img src="https://farm9.staticflickr.com/8153/7308889078_6f0278bedc.jpg" width="500" height="500" alt="アイコン"></a>
+<a href="https://www.flickr.com/photos/nna774/7308889078/" title="アイコン by nna_774, on Flickr"><img src="https://farm9.staticflickr.com/8153/7308889078_6f0278bedc.jpg" width="250" height="250" alt="アイコン"></a>
 
