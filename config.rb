@@ -64,8 +64,7 @@ configure :build do
   activate :minify_javascript
   activate :minify_html, :remove_http_protocol => false, :remove_https_protocol => true
   activate :gzip
-  activate :asset_hash
-  page "*.png", :asset_hash => false
+  activate :asset_hash, :ignore => [/.*\.png/]
 end
 
 
