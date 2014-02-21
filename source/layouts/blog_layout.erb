@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="ja" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
     <title><%= current_article.title + ' - ' unless current_article.nil?  %>/dev/nona (いっと☆わーくす！)</title>
@@ -13,18 +13,29 @@
     <% else %>
       <meta property="og:type" content="article"/>
     <% end %>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@nonamea774">
+    <meta name="twitter:url" content="https://nna774.net<%= current_page.url %>">
+    <meta name="twitter:domain" content="nna774.net">
+    <meta name="twitter:creator" content="@nonamea774">
+    <meta property="og:title" content="<%= current_article.title + ' - ' unless current_article.nil?  %>/dev/nona (いっと☆わーくす！)" />
+    <meta property="og:url" content="https://nna774.net<%= current_page.url %>" />
+    <meta property="og:image" content="https://nna774.net/img/1012-ogp.png" />
+    <meta property="og:description" content="<%= (strip_tags current_article.body[0,140]) + '... - ' unless current_article.nil?  %>いっと☆わーくす！" />
+
   </head>
   
   <body>
-    <header>
+    <header role="banner">
       <h1><a href="/blog/">/dev/nona (いっと☆わーくす！)</a></h1>
-      <h3 id="anataNoYsou">あなたの予想に反して、このページが見えているでしょうか?</h3>
+      <p id="anataNoYosou">あなたの予想に反して、このページが見えているでしょうか?</p>
+      <p id="puyoguesuba">[##--------] 28%</p>
       <nav id="headerMenu"><a href="/">top</a></nav>
     </header>
     <div id="wrap">
-      <div id="main" role="main">
+      <main role="main">
         <%= yield %>
-      </div>
+      </main>
     
       <aside id="sideBar">
         <h2>Recent Articles</h2>
@@ -37,7 +48,7 @@
         <h2>Tags</h2>
         <ol>
           <% blog.tags.each do |tag, articles| %>
-            <li><a href="<%= tag_path(tag) %>" rel="tag"><%= tag %></a> (<%= articles.size %>)</li>
+            <li><a href="<%= tag_path(tag) %>"><%= tag %></a> (<%= articles.size %>)</li>
           <% end %>
         </ol>
 
@@ -69,7 +80,7 @@
             ただし、必要である範囲において他の著作物を引用していることがあります。
           </p>
           <p>
-            <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />And, this work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a> or <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
+            <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/cc-by-sa_88x31.png" width="88" height="31" /></a><br />And, this work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a> or <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
           </p>
         </div>
       </aside>

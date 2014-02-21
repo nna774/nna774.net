@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="ja" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
     <title><%= current_page.data.title || "いっと☆わーくす！" %></title>
@@ -16,20 +16,31 @@
     <% else %>
       <meta property="og:type" content="article" />
     <% end %>
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@nonamea774">
+    <meta name="twitter:url" content="https://nna774.net<%= current_page.url %>">
+    <meta name="twitter:domain" content="nna774.net">
+    <meta name="twitter:creator" content="@nonamea774">
+
+    <meta property="og:title" content="<%= current_page.data.title || "いっと☆わーくす！" %>" />
+    <meta property="og:url" content="https://nna774.net<%= current_page.url %>" />
+    <meta property="og:image" content="https://nna774.net/img/1012-ogp.png" />
+    <meta property="og:description" content=";; This buffer is for notes you don't want to save, and for Lisp evaluation. ;; If you want to create a file, visit that file with C-x C-f, ;; then enter the text in that file's own buffer." />
+    
   </head>
   
   <body class="<%= page_classes %>">
     <header>
-      <h1 id="itWorks">いっと☆わーくす！</h1>
+      <h1 id="itWorks"><a href="/">いっと☆わーくす！</a></h1>
       <p id="scratch">
         ;; This buffer is for notes you don't want to save, and for Lisp evaluation.<br />
         ;; If you want to create a file, visit that file with C-x C-f,<br />
         ;; then enter the text in that file's own buffer.
       </p>
     </header>
-    
+    <main role="main">
     <%= yield %>
-
+    </main>
     <footer>
       <%= partial "address" %>
     </footer>

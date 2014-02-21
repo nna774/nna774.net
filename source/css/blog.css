@@ -29,7 +29,7 @@ article {
     text-align: left;
 }
 
-#main {
+main {
     width: 85%;
     float: right;
 }
@@ -53,4 +53,13 @@ footer{
 
 .articleChain, .pageChain{
     text-align: center;
+}
+
+#anataNoYosou {
+    font-size: large;
+    font-weight: bolder;
+}
+
+#puyoguesuba{
+    font-weight: bolder;
 }
