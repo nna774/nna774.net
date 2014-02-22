@@ -109,4 +109,5 @@ activate :deploy do |deploy|
   deploy.host         = 'pi'
   deploy.path         = '/var/www'
   deploy.port         = "10044"
+  deploy.flags        = '-avz --exclude=".git/" -e'
 end
