@@ -1,0 +1,35 @@
+#! /usr/bin/zsh
+
+cd ~/codes/nna774-middleman
+
+TITLE=$@
+
+echo $TITLE
+
+FILE=`middleman article $TITLE | tail -n1 | awk '{print $3}'`
+
+emacs $FILE
+
+middleman build
+
+if [ ! $? ];then
+   echo build failure! >&2
+   return 1
+fi
+
+git add $FILE
+
+git commit
+
+cd build
+
+git add .
+
+git commit # -m `cat ../.git/COMMIT_EDITMSG`
+
+git push
+
+cd ..
+
+middleman deploy
+
