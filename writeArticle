@@ -31,5 +31,7 @@ git push
 
 cd ..
 
-middleman deploy
+rsync -avz --exclude=".git/" -e 'ssh -p 10044' build/ pi:/var/www from "."
+
+#middleman deploy
 
