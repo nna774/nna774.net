@@ -14,7 +14,7 @@ middleman build
 
 if [ ! $? ];then
    echo build failure! >&2
-   return 1
+   exit 1
 fi
 
 git add $FILE
