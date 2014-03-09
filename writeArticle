@@ -6,6 +6,12 @@ TITLE=$@
 
 echo $TITLE
 
+if [ -z $TITLE ];then
+    echo input title
+    exit 1
+fi
+
+
 FILE=`middleman article $TITLE | tail -n1 | awk '{print $3}'`
 
 emacs $FILE
