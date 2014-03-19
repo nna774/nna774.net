@@ -27,6 +27,12 @@ Serial.println(); には文字リテラルと数字は渡すことができた�
 Serial.setDefault() をsetup() で呼んでおくことで、printf() でもシリアルに出力できるらしい。(serial.h に書いてあった)
 最初printf("hoge"); して何も出ないなーと思っていたら、printf() は改行が来るまでバッファしているらしい。
 
+/dev/ttyACM0 に見えてるので、
+
+    $ cat /dev/ttyACM0
+
+でsakura 側で書いたものが見えた。
+
 # rx-elf-gcc
 オンラインコンパイラで毎回build するのは面倒だなーと思っていたら、makefile を眺めていたらrx-elf-gcc でクロスコンパイルできるらしい。
 クロスコンパイル環境整えたいけど、AUR のrx-elf-gcc はbuild できなかったので、自分でビルドしないとなー って感じだ。
@@ -34,5 +40,6 @@ Serial.setDefault() をsetup() で呼んでおくことで、printf() でもシ�
 # HTTP API
 [API](http://tool-cloud.renesas.com/Renesas/ref/api.html) が存在して、
 これを使ってAPI 経由でWeb Compiler を使えるっぽい。
+手元でビルドする環境を簡単に整えられないならこっちだけでがんばってもいいかも
 
 ビルドもこれでできるので、いい感じのelisp でも気が向いたら書きたい。
