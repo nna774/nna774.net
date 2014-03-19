@@ -63,3 +63,14 @@ footer{
 #puyoguesuba{
     font-weight: bolder;
 }
+
+pre  code{
+    background-color: #F5FFFA;
+
+    font-size: large;
+
+    border-style: outset;
+    border-color: black;
+    margin: 10px;
+    padding: 10px;
+}
