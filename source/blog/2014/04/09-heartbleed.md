@@ -1,10 +1,10 @@
 ---
 title: Heartbleed
 date: 2014-04-09 23:03 JST
-tags: SSL
+tags: SSL, Raspberry Pi 
 ---
 
-最近流行りのOpenSSL のバグですが、Raspbian にすぐにアップデートが来なかったので、これを機にArch Linux に乗り変えることにした。
+最近流行りのOpenSSL のバグですが、うちのRaspberry Pi の上のRaspbian にすぐにアップデートが来なかったので、これを機にArch Linux に乗り変えることにした。
 
 まだいろいろ設定している途中ですが、とりあえず80番と443番だけNAT を通すようにしてここも復活。
 
