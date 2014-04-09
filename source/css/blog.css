@@ -64,13 +64,27 @@ footer{
     font-weight: bolder;
 }
 
-pre  code{
-    background-color: #F5FFFA;
+/* pre code{
+ *     background-color: #F5FFFA;
+ * 
+ *     font-size: large;
+ * 
+ *     border-style: outset;
+ *     border-color: black;
+ *     margin: 10px;
+ *     padding: 10px;
+ * } */
 
-    font-size: large;
+pre {
+    background-color: #F5FFFA;
 
     border-style: outset;
     border-color: black;
+    border-width: 1px;
     margin: 10px;
     padding: 10px;
+}
+
+code{
+    font-size: large;
 }
