@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^([0-9]*)/$ /blog/2014/$1.html [R=301,L]
+
