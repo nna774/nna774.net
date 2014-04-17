@@ -2,3 +2,36 @@ RewriteEngine on
 
 RewriteRule ^([0-9]*)/$ /blog/2014/$1.html [R=301,L]
 
+
+
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(www\.nna774\.net)
+RewriteRule ^(.*)$ https://nna774.net%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{HTTP:Accept-encoding} gzip
+RewriteCond %{REQUEST_FILENAME}.gz -f
+RewriteRule ^(.*)\.css$ $1.css.gz [QSA,L]
+RewriteCond %{HTTP:Accept-encoding} gzip
+RewriteCond %{REQUEST_FILENAME}.gz -f
+RewriteRule ^(.*)\.js$ $1.js.gz [QSA,L]
+RewriteCond %{HTTP:Accept-encoding} gzip
+RewriteCond %{REQUEST_FILENAME}.gz -f
+RewriteRule ^(.*)\.html$ $1.html.gz [QSA,L]
+
+<FilesMatch "\.css\.gz$">
+  ForceType   text/css
+  AddEncoding gzip .gz
+</FilesMatch>
+ 
+<FilesMatch "\.js\.gz$">
+  ForceType   application/javascript
+  AddEncoding gzip .gz
+</FilesMatch>
+
+<FilesMatch "\.html\.gz$">
+  ForceType   text/html
+  AddEncoding gzip .gz
+</FilesMatch>
+
