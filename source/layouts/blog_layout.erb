@@ -9,6 +9,15 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="canonical" href="https://nna774.net<%= current_page.url %>"/>
+    <% if not current_article.nil? %>
+      <% if current_article.previous_article %>
+        <link rel="prev" href="<%= current_article.previous_article.url %>" title="<%= current_article.previous_article.title %>">
+      <% end %>
+      <% if current_article.next_article %>
+        <link rel="next" href="<%= current_article.next_article.url %>" title="<%= current_article.next_article.title %>">
+      <% end %>
+    <% end %>
+
     <% if current_page.url == "/blog/" %>
       <meta property="og:type" content="website"/>
     <% else %>
