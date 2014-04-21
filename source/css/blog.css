@@ -67,15 +67,6 @@ article {
     text-align: center;
 }
 
-#anataNoYosou {
-    font-size: large;
-    font-weight: bolder;
-}
-
-#puyoguesuba{
-    font-weight: bolder;
-}
-
 /* pre code{
  *     background-color: #F5FFFA;
  * 
@@ -130,5 +121,24 @@ code{
     /* background-color: #6f6; */
     /* padding-top: 10px; */
     padding-bottom: 10px;
+}
+
+#banner > h1{
+    margin: 10px 0 0 0;
+}
+
+#anataNoYosou {
+    font-size: large;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#puyoguesuba{
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#headerMenu{
+    margin-top: 20px;
 }
 
