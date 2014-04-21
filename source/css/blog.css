@@ -102,12 +102,16 @@ code{
     margin-right: auto;
     text-align: center;
     background-color: #7f7;
+    overflow: auto;
 }
 
 #img {
-    width: 13%;
+    width: 180px;
     float: right;
     margin-top: auto;
+    padding: 10px;
+    /* padding-bottom: 10px;
+     * padding-left: 10px; */
     /* margin-bottom: auto;
      * padding-left: 3px ; */
     /* padding-left: 10px; */
@@ -115,9 +119,11 @@ code{
 }
 
 #banner {
-    width: 85%;
+    width: 100%;
     float: right;
+    margin-left: -200px;
     /* background-color: #6f6; */
-    
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
 }
 
