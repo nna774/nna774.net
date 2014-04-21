@@ -10,18 +10,6 @@ header > a:visited {
     color:#000;
 }
 
-article {
-    background-color: #afa;
-
-    /* border-bottom: 1px; */
-    border-color: gray;
-    border-style: outset;
-
-    padding: 5px;
-
-    margin: 10px auto;
-}
-
 #wrap {
     width:98%;
     clear: both;
@@ -53,9 +41,26 @@ footer{
     text-align: left;
 }
 
+article {
+    background-color: #afa;
+
+    /* border-bottom: 1px; */
+    border-color: gray;
+    border-style: outset;
+
+    padding: 5px;
+
+    margin-top: 5px;
+}
+
 .articleMeta{
     background-color: #eee;
     font-size: small;
+    padding: 5px;
+}
+
+.articleMeta > h1 {
+    margin: 0px;
 }
 
 .articleChain, .pageChain{
