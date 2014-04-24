@@ -1,7 +1,7 @@
 ---
 title: atom
 date: 2014-04-07 00:00 JST
-tags:
+tags: 日常
 ---
 
 # 11歳ですよもう
