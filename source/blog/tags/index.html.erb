@@ -1,0 +1,9 @@
+---
+layout: blog_layout
+---
+<h1>Tags</h1>
+<ol>
+  <% blog.tags.each do |tag, articles| %>
+  <li><a href="<%= tag_path(tag) %>"><%= tag %></a> (<%= articles.size %>)</li>
+  <% end %>
+</ol>
