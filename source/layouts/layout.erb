@@ -12,6 +12,11 @@
             <%= stylesheet_link_tag css %>
       <% end %>
     <% end %>
+    <% if not current_page.data.customJS.nil? %>
+      <% current_page.data.customJS.each_with_index do |js, i| %>
+            <%= javascript_include_tag js %>
+      <% end %>
+    <% end %>
     <% if current_page.url == "/" %>
       <meta property="og:type" content="website" />
     <% else %>
