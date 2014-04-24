@@ -1,0 +1,35 @@
+---
+title: "LifePNG - いっと☆わーくす！"
+customJS: ["./lifepng.js"]
+---
+
+<div id="status">ロード中……</div>
+<textarea id="input" cols="50" rows="10">
+0100000000000000
+0010000000000000
+1110000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+</textarea>
+<br />
+<input type="button" value="描画" onclick="lifepng.draw();" />
+<input type="button" value="next" onclick="lifepng.next();" />
+<input type="button" value="random" onclick="lifepng.randomize();" />
+<a href="#" onclick="window.open(document.getElementById('board').toDataURL());">Export as PNG</a>
+<p>
+  <canvas id="board" width="1" height="1">
+    need canvas
+  </canvas>
+</p>
+
