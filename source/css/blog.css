@@ -2,11 +2,7 @@ body{
      text-align: center;
 }
 
-
-header > a:link  {
-    color:#000;
-}
-header > a:visited {
+header > a:link, header > a:visited {
     color:#000;
 }
 
@@ -32,6 +28,10 @@ main > *{
 #sideBar {
     width: 200px;
     float: right;
+}
+#sideBar > h2:before, #license > h2:before {
+    content: url("/img/glider20.png");
+    padding-right: 5px;
 }
 
 footer{
@@ -124,7 +124,7 @@ code{
 }
 
 #banner > h1{
-    margin: 10px 0 0 0;
+    margin-top: 10px;
 }
 
 #anataNoYosou {
@@ -133,7 +133,7 @@ code{
     margin: 10px;
 }
 
-#puyoguesuba{
+#pBar{
     font-weight: bolder;
     margin: 10px;
 }
