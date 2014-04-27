@@ -16,7 +16,7 @@ FILE=`middleman article $TITLE | tail -n1 | awk '{print $3}'`
 
 emacs $FILE
 
-middleman build
+bundle exec middleman build
 
 if [ ! $? ];then
    echo build failure! >&2
@@ -39,5 +39,5 @@ cd ..
 
 #rsync -avz --exclude=".git/" -e 'ssh -p 10044' build/ pi:/var/www from "."
 
-middleman deploy
+bundle exec middleman deploy
 
