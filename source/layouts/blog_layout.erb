@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title><%= current_article.title + ' - ' unless current_article.nil?  %>/dev/nona (いっと☆わーくす！)</title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "/dev/nona's Atom Feed" %>
     <%= stylesheet_link_tag "default", "blog" %>
     <%= javascript_include_tag "tweet" %>
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
