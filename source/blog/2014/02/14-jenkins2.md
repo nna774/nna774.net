@@ -1,7 +1,7 @@
 ---
 title: ジェンキンス氏
 date: 2014-02-14 23:55 JST
-tags: Jenkins, Kancolle, Anime
+tags: Jenkins, Kancolle, Anime, CI
 ---
 
 # 執事

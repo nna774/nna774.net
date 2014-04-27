@@ -1,7 +1,7 @@
 ---
 title: 執事さんに毎日GCC をbuild させるはなし
 date: 2014-02-14 00:05 JST
-tags: GCC, Clang, GHC, Jenkins, OpenStack
+tags: GCC, Clang, GHC, Jenkins, OpenStack, CI
 ---
 
 jenkins さんにgcc のhead を毎日build してもらうようにした。
