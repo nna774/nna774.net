@@ -45,4 +45,6 @@ ExpiresByType image/webp "access plus 60 days"
 ExpiresByType application/javascript "access plus 60 days"
 ExpiresByType text/css "access plus 60 days"
 
-#Header append Vary Accept-Encoding
+ErrorDocument 401 /errors/401/
+ErrorDocument 403 /errors/403/
+ErrorDocument 404 /errors/404/
