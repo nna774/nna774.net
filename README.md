@@ -1,6 +1,6 @@
 # nna774.net
 
-[![Build Status](https://drone.io/github.com/nna774/nna774.net/status.png)](https://drone.io/github.com/nna774/nna774.net/latest)
+[![Build Status](https://drone.io/github.com/nna774/nna774.net/status.png)](https://drone.io/github.com/nna774/nna774.net/latest) [![Dependency Status](https://gemnasium.com/nna774/nna774.net.svg)](https://gemnasium.com/nna774/nna774.net)
 
 middleman で管理されたnna774.net です。
 以下のようなURL で見ることができます。
