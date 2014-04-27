@@ -109,5 +109,5 @@ activate :deploy do |deploy|
   deploy.host         = '10.8.8.3'
   deploy.path         = '/srv/http'
   deploy.port         = "22"
-  deploy.flags        = '-avz --exclude=".git/" -e'
+  deploy.flags        = '-avz --exclude=".git/"'
 end
