@@ -5,7 +5,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
   xml.subtitle "いっと☆わーくす！"
   xml.id URI.join(site_url, blog.options.prefix.to_s)
   xml.link "href" => URI.join(site_url, blog.options.prefix.to_s)
-  xml.link "href" => URI.join(site_url, current_page.path), "rel" => "self"
+  xml.link "href" => "https://nna774.net/blog/feed.xml", "rel" => "self"
   xml.updated(blog.articles.first.date.to_time.iso8601) unless blog.articles.empty?
   xml.author { xml.name "NoNameA 774" }
 
