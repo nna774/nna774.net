@@ -10,3 +10,7 @@ task "deploy" do
   sh "bundle exec middleman deploy"
 end
 
+desc "preview by using middleman"
+task "preview" do
+  sh "bundle exec middleman server"
+end
