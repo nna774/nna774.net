@@ -1,3 +1,7 @@
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .css .js
+Header set Vary Accept-Encoding
+
 RewriteEngine on
 
 RewriteRule ^([0-9]*)/$ /blog/$1.html [R=301,L]
@@ -22,12 +26,12 @@ RewriteCond %{REQUEST_FILENAME}.gz -f
 RewriteRule ^(.*)\.html$ $1.html.gz [QSA,L]
 
 <FilesMatch "\.css\.gz$">
-  ForceType   text/css
+  ForceType   'text/css; charset=UTF-8'
   AddEncoding gzip .gz
 </FilesMatch>
  
 <FilesMatch "\.js\.gz$">
-  ForceType   application/javascript
+  ForceType   'application/javascript; charset=UTF-8'
   AddEncoding gzip .gz
 </FilesMatch>
 
