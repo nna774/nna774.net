@@ -1,5 +1,7 @@
 # nna774.net
 
+[![Build Status](https://drone.io/github.com/nna774/nna774.net/status.png)](https://drone.io/github.com/nna774/nna774.net/latest)
+
 middleman で管理されたnna774.net です。
 以下のようなURL で見ることができます。
 
