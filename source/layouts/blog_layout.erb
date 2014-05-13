@@ -31,7 +31,7 @@
     <meta property="og:title" content="<%= current_article.title + ' - ' unless current_article.nil?  %>/dev/nona (いっと☆わーくす！)" />
     <meta property="og:url" content="https://nna774.net<%= current_page.url %>" />
     <meta property="og:image" content="https://nna774.net/img/1012-ogp.png" />
-    <meta property="og:description" content="<%= (strip_tags current_article.body[0,140]) + '... - ' unless current_article.nil?  %>いっと☆わーくす！" />
+    <meta property="og:description" content="<%= CGI.escapeHTML(strip_tags current_article.body[0,140]) + '... - ' unless current_article.nil?  %>いっと☆わーくす！" />
 
     <%= partial "analytics" %>
 
