@@ -12,7 +12,7 @@ if [ -z $TITLE ];then
 fi
 
 
-FILE=`middleman article $TITLE | tail -n1 | awk '{print $3}'`
+FILE=`bundle exec middleman article $TITLE | tail -n1 | awk '{print $2}'`
 
 emacs $FILE
 
