@@ -65,9 +65,9 @@
           <% end %>
         </ol>
 
-        <h2>Tags</h2>
+        <h2><a href="/blog/tags/">Tags</a></h2>
         <ol>
-          <% blog.tags.each do |tag, articles| %>
+          <% blog.tags.sort_by{|t, articles| articles.size }[0..19].reverse_each do |tag, articles| %>
             <li><a href="<%= tag_path(tag) %>"><%= tag %></a> (<%= articles.size %>)</li>
           <% end %>
         </ol>
