@@ -108,8 +108,8 @@ page "/blog/feed.xml", layout: false
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method       = :rsync
-  deploy.host         = '10.8.8.3'
+  deploy.host         = 'pi.nna774.net'
   deploy.path         = '/srv/http'
-  deploy.port         = "22"
+  deploy.port         = "10044"
   deploy.flags        = '-avz --exclude=".git/"'
 end
