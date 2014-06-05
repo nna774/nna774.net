@@ -4,7 +4,7 @@
 # { String | Regexp } file => { Symbol | String | nil } freq
 changefreqs = {
   /^index.html/ => :monthly,
-  /^blog\/index.html/ => :daily,
+  /^blog\/index.html/ => :weekly,
   /^blog\/tags\// => :weekly,
   /^blog\/page\// => :weekly,
   /^blog\/20\d\d\/\d\d\/\d\d\/[\w-]+\.html$/ => :never,
