@@ -43,7 +43,7 @@ xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
 
       # lastmod
       lastmod = resource.data.modify_date.presence || resource.data.date.presence
-      xml.lastmod lastmod if lastmod.present?
+      xml.lastmod lastmod[0,10] if lastmod.present?
 
       # changefreq
       changefreqs.each do |file, freq|
