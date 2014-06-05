@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://nna774.net/sitemap.xml

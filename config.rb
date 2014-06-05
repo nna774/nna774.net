@@ -104,6 +104,7 @@ activate :blog do |blog|
 end
 
 page "/blog/feed.xml", layout: false
+page "/sitemap.xml", layout: false
 
 activate :deploy do |deploy|
   deploy.build_before = true
