@@ -45,3 +45,12 @@ footer {
     margin-top: 30px;
     padding-top: 5px;
 }
+
+#hostOn {
+    font-size: small;
+    color: gray;
+}
+
+#hostOn > a{
+    color: inherit;
+}
