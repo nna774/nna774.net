@@ -46,6 +46,8 @@
 #   end
 # end
 
+set :base_url, 'https://nna774.net'
+
 set :css_dir, 'css'
 
 set :js_dir, 'js'

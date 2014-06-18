@@ -39,7 +39,7 @@ xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
   sitemap.resources.each do |resource|
     xml.url do
       # loc
-      xml.loc "https://nna774.net#{resource.url}"
+      xml.loc "<%= base_url %>#{resource.url}"
 
       # lastmod
       lastmod = resource.data.modify_date.presence || resource.data.date.presence
