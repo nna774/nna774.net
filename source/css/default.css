@@ -46,7 +46,7 @@ footer {
     padding-top: 5px;
 }
 
-#hostOn {
+#hostOn, #pageDetail {
     font-size: small;
     color: gray;
 }
