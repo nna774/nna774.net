@@ -16,6 +16,14 @@
             <%= javascript_include_tag js %>
       <% end %>
     <% end %>
+    <% if not current_page.data.customCSSInline.nil? %>
+      <style type="text/css">
+      <!--
+       <%= current_page.data.customCSSInline %>
+      -->
+      </style>
+    <% end %>
+
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="canonical" href="<%= base_url %><%= current_page.url %>"/>
@@ -119,6 +127,7 @@
   <footer>
     <%= partial "address" %>
     <%= partial "hostOn" %>
+    <%= partial "pageDetail" %>
   </footer>
   </body>
 </html>

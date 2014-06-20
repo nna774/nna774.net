@@ -17,6 +17,13 @@
             <%= javascript_include_tag js %>
       <% end %>
     <% end %>
+    <% if not current_page.data.customCSSInline.nil? %>
+      <style type="text/css">
+      <!--
+       <%= current_page.data.customCSSInline %>
+      -->
+      </style>
+    <% end %>
     <% if current_page.url == "/" %>
       <meta property="og:type" content="website" />
     <% else %>
@@ -52,6 +59,7 @@
     <footer>
       <%= partial "address" %>
       <%= partial "hostOn" %>
+      <%= partial "pageDetail" %>
     </footer>
   </body>
 </html>
