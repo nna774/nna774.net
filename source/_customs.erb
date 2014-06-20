@@ -1,0 +1,19 @@
+<% if not current_page.data.customCSS.nil? %>
+  <% current_page.data.customCSS.each_with_index do |css, i| %>
+    <%= stylesheet_link_tag css %>
+  <% end %>
+<% end %>
+
+<% if not current_page.data.customJS.nil? %>
+  <% current_page.data.customJS.each_with_index do |js, i| %>
+    <%= javascript_include_tag js %>
+  <% end %>
+<% end %>
+
+<% if not current_page.data.customCSSInline.nil? %>
+  <style type="text/css">
+    <!--
+      <%= current_page.data.customCSSInline %>
+    -->
+  </style>
+<% end %>
