@@ -1,7 +1,7 @@
 <header class="articleMeta">
   <h1 class="articleTitle"><%= link_to current_article.title, current_article.url %></h1>
   <time datetime="<%= current_article.date.strftime('%Y-%m-%dT%R%z') %>"><%= current_article.date.strftime('%Y/%m/%d %R') %></time>
-  <a rel="author" href="/about" >NoNameA 774</a>
+  <a rel="author" href="/about/" >NoNameA 774</a>
   <a href="<%= current_article.url %>">parmalink</a>
   <% if not current_article.tags.empty? %>
     <span class="tags"> Tags:
