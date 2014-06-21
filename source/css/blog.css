@@ -29,7 +29,7 @@ main > *{
     width: 200px;
     float: right;
 }
-#sideBar > h2:before, #license > h2:before {
+#sideBar h2:before {
     content: url("/img/glider20.png");
     padding-right: 5px;
 }
@@ -96,7 +96,7 @@ code{
     float: right;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    /* text-align: center; */
     background-color: #7f7;
     overflow: auto;
 }
@@ -139,6 +139,9 @@ code{
 }
 
 #headerMenu{
-    margin-top: 20px;
+    margin: 20px;
+    font-size: large;
+    font-weight: bolder;
+    word-spacing: 10px;
 }
 
