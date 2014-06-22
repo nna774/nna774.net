@@ -1,0 +1,49 @@
+---
+cell: 30
+---
+.space3x3 {
+    /* border: solid 1px #000; */
+    /* background-color: #FFF; */
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    width: <%= current_page.data.cell * 3 %>px;
+    height: <%= current_page.data.cell * 3 %>px;
+}
+
+.ROW {
+    border-width: 0;
+    margin: <%= current_page.data.cell * 9 %>px;
+    height: <%= current_page.data.cell * 3 %>px;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    border-width: 0;
+    margin: <%= current_page.data.cell * 3 %>px;
+    height: <%= current_page.data.cell %>px;
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    text-align: center;
+    border: solid 1px #000;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    width: <%= current_page.data.cell %>px;
+    height: <%= current_page.data.cell %>px;
+}
+
+/* .space3x3 div {
+ *     display: inline;
+ * }; */
+
+#Board {
+    border-color: black;
+    background-color: #FFF;
+}
+
+
