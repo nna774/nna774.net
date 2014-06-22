@@ -1,0 +1,27 @@
+---
+title: "3x3x3x3 - いっと☆わーくす！"
+customJS:  ["./3x3x3x3.js"]
+customCSS: ["./3x3x3x3.css"]
+---
+
+<table id="Board">
+<% 3.times do |gi| %>
+  <tr id="Row<%= gi %>" class="ROW">
+    <% 3.times do |gj| %>
+      <td id="Row<%= gi %>_<%= gj %>">
+	<table id="table<%= gi * 3 + gj %>" class="space3x3">
+        <% 3.times do |li| %>
+          <tr id="row<%= li %>_R<%= gi %>_<%= gj %>" class="row">
+            <% 3.times do |lj| %>
+              <td id="r<%= li %>_c<%= lj %>_G<%= gi %>_<%= gj %>" class="cell">
+		　
+              </td>
+            <% end %>
+          </tr>
+        <% end %>
+	</table>
+      </td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
