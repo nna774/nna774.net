@@ -54,6 +54,8 @@ set :js_dir, 'js'
 
 set :images_dir, 'images'
 
+set :commitHash, `git log --pretty=format:'%H' -n1`
+
 # Build-specific configuration
 configure :build do
 

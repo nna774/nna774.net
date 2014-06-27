@@ -46,11 +46,11 @@ footer {
     padding-top: 5px;
 }
 
-#hostOn, #pageDetail {
+#hostOn, #pageDetail, #_commitHash {
     font-size: small;
     color: gray;
 }
 
-#hostOn > a{
+#hostOn > a, #_commitHash > a{
     color: inherit;
 }
