@@ -14,4 +14,4 @@ gem "middleman-deploy"
 
 gem "rake"
 
-#gem 'therubyracer'
+gem 'therubyracer'
