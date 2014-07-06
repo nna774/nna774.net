@@ -114,5 +114,5 @@ activate :deploy do |deploy|
   deploy.host         = 'pi.nna774.net'
   deploy.path         = '/srv/http'
   deploy.port         = "10044"
-  deploy.flags        = '-avz --exclude=".git/"'
+  deploy.flags        = '-avzz --exclude=".git/"'
 end
