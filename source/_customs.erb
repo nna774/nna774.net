@@ -1,6 +1,15 @@
 <% if not current_page.data.customCSS.nil? %>
   <% current_page.data.customCSS.each_with_index do |css, i| %>
-    <%= stylesheet_link_tag css %>
+  <% css_path = Middleman::Application::root + "/" + source + "/" + css_dir + "/" + css + ".css" %>
+  <% if File.size(css_path) < 512 %>
+    <style type="text/css">
+      <!--
+        <%= `cat #{css_path}` %>
+      -->
+    </style>
+    <% else %>
+      <%= stylesheet_link_tag css %>
+    <% end %>
   <% end %>
 <% end %>
 
