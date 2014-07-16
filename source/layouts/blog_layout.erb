@@ -4,7 +4,9 @@
     <meta charset="utf-8" />
     <title><%= current_article.title + ' - ' unless current_article.nil?  %>/dev/nona (いっと☆わーくす！)</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "/dev/nona's Atom Feed" %>
-    <%= stylesheet_link_tag "default", "blog" %>
+    <%= partial "css/default" %>
+
+    <%= stylesheet_link_tag "blog" %>
     <%= javascript_include_tag "tweet" %>
 
     <%= partial "customs" %>

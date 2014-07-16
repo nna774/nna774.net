@@ -6,7 +6,8 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="canonical" href="<%= base_url %><%= current_page.url %>"/>
-    <%= stylesheet_link_tag "default" %>
+
+    <%= partial "css/default" %>
     <%= partial "customs" %>
 
     <% if current_page.url == "/" %>

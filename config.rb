@@ -56,6 +56,8 @@ set :images_dir, 'images'
 
 set :commitHash, `git log --pretty=format:'%H' -n1`
 
+set :minify_size, 1024
+
 # Build-specific configuration
 configure :build do
 
