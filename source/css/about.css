@@ -1,3 +1,7 @@
-h2 {
+h2, h3 {
     margin: 5px;
+}
+section {
+    line-height: 120%;
+    padding-left: 10px;
 }
