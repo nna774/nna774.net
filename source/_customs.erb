@@ -1,12 +1,7 @@
 <% if not current_page.data.customCSS.nil? %>
   <% current_page.data.customCSS.each_with_index do |css, i| %>
   <% css_path = Middleman::Application::root + "/" + source + "/" + css_dir + "/" + css + ".css" %>
-  <% if (File.exist?(css_path) && File.size(css_path) < 512) || (File.exist?(css) && File.size(css) < 512 && css_path = css) %>
-    <style type="text/css">
-      <!--
-        <%= `cat #{css_path}` %>
-      -->
-    </style>
+  <% if (File.exist?(css_path) && File.size(css_path) < 512) || (File.exist?(css) && File.size(css) < 512 && css_path = css) %><style type="text/css"><!-- <%= `cat #{css_path} | tr -d "\n\t" | sed -e 's/  */ /g' | sed -e 's/ \\?\\([{;,:]\\) \\?/\\1/g'` %> --> </style>
     <% else %>
       <%= stylesheet_link_tag css %>
     <% end %>
