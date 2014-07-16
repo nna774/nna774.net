@@ -1,1 +1,1 @@
-<style><%= `cat #{Middleman::Application::root + "/" + source + "/" + css_dir + "/default.css"} | tr -d "\n\t" | sed -e 's/  */ /g' | sed -e 's/ \\?\\([{;,:]\\) \\?/\\1/g'` %></style>
+<style><%= `cat #{Middleman::Application::root + "/" + source + "/" + css_dir + "/default.css"} | tr -d "\n\t" | sed -e 's/  */ /g' | sed -e 's/ \\?\\([{;,:>]\\) \\?/\\1/g'` %></style>
