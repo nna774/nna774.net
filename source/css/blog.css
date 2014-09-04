@@ -90,6 +90,8 @@ pre {
 
 code{
     font-size: large;
+    background-color: #F5FFFA;
+    margin: 0 5px;
 }
 
 #head {
