@@ -1,7 +1,7 @@
 ---
 title: git push -f してこわかったはなし
 date: 2014-09-05 03:51 JST
-tags: git
+tags: Git
 ---
 
 カレントブランチにforce push しようとして、
