@@ -1,0 +1,53 @@
+---
+title: "OpenYo"
+#customCSS: ["about"]
+#customCSSInline: "h2, h3 { margin: 5px; } section { line-height: 120%; padding-left: 10px; } "
+---
+
+<h1>OpenYo</h1>
+<p class="subtitle">ひとまずページだけでも。</p>
+
+<h2>What's OpenYo?</h2>
+<p class="subtitle">自由で拡張可能なYo のクローンです。</p>
+
+<p>
+現在<a href="http://im.kayac.com/">im.kayac.com</a> と公式Yo への通知に対応しています。<br />
+Android 端末からの送受信も、<a href="https://github.com/lastcat/OpenYoForAndroid">lastcat/OpenYoForAndroid</a> を作っていただいているので、近々対応します。
+</p>
+<p>
+送信については、REST API で実行可能で、ブラウザ、コマンドライン等から送信可能となっています。
+</p>
+
+<h2 id="_tools">Tools</h2>
+<p class="subtitle">関連ツールとか。ありがとうございます。</p>
+
+<ul>
+  <li><a href="https://github.com/lastcat/OpenYoForAndroid">lastcat/OpenYoForAndroid</a> OepnYoのandroidクライアントです。</li>
+  <li><a href="https://github.com/primenumber/OpenYoTools">primenumber/OpenYoTools</a> OpenYoをコマンドラインから扱うためのツール</li>
+</ul>
+
+<h2 id="_links">Links</h2>
+<p class="subtitle">言及してあるページとか関連してるページとか。</p>
+
+<ul>
+  <li>レポジトリ: <a href="https://github.com/nna774/OpenYo">nna774/OpenYo</a></li>
+  <li>公式？ エンドポイント: <a href="https://OpenYo.nna774.net">https://OpenYo.nna774.net</a></li>
+  <li>通知・告知用Twitter アカウント: <a href="https://twitter.com/OpenYo_">@OpenYo_</a></li>
+  <li>OpenYo 通知用Yo: OPENYO <div id="yo-button"></div></li>
+  <li>紹介っぽいはじめの記事: <%= link_to "サイボウズ・ラボユースHackathon に参加してOpenYo の開発を進めてきたはなし。", "/blog/2014/09/11/cybozu.html" %></li>
+  <li>SSL 対応した時の記事: <%= link_to "OpenYo のエンドポイントをSSL 対応にしました。", "/blog/2014/09/21/openyossl.html" %></li>
+</ul>
+
+<a class="twitter-timeline" href="https://twitter.com/OpenYo_" data-widget-id="516088609611345920">@OpenYo_ からのツイート</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script type="text/javascript">
+	var _yoData = {
+		"username": "OPENYO",
+		"trigger": "someone send OpenYo to you"
+	};
+	var s = document.createElement("script");
+	s.type = "text/javascript";
+	s.src = "//yoapp.s3.amazonaws.com/js/yo-button.js";
+	(document.head || document.getElementsByTagName("head")[0]).appendChild(s);
+</script>
