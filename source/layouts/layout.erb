@@ -10,16 +10,17 @@
     <%= partial "css/default" %>
     <%= partial "customs" %>
 
-    <% if current_page.url == "/" %>
+    <% if current_page.url == "/" || current_page.data.ogpType == "website" %>
       <meta property="og:type" content="website" />
     <% else %>
       <meta property="og:type" content="article" />
     <% end %>
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@nonamea774">
+    <meta name="twitter:site" content="<%= current_page.data.twitterSite || "@nonamea774" %>">
     <meta name="twitter:url" content="<%= base_url %><%= current_page.url %>">
     <meta name="twitter:domain" content="nna774.net">
     <meta name="twitter:creator" content="@nonamea774">
+    <meta name="twitter:title" content="<%= current_page.data.title || "いっと☆わーくす！" %>" />
 
     <meta property="og:title" content="<%= current_page.data.title || "いっと☆わーくす！" %>" />
     <meta property="og:url" content="<%= base_url %><%= current_page.url %>" />
