@@ -13,11 +13,16 @@ changefreqs = {
   /^blog\/2014\/03/ => :never,
   /^blog\/2014\/04/ => :never,
   /^blog\/2014\/05/ => :never,
+  /^blog\/2014\/06/ => :never,
+  /^blog\/2014\/07/ => :never,
+  /^blog\/2014\/08/ => :never,
+  /^blog\/2014\/09/ => :never,
   /^blog\/2014/ => :weekly,
   /^blog\/20\d\d/ => :never,
   /lifepng/ => :monthly,
   /errors/ => :monthly,
-  /about/ => :monthly
+  /about/ => :monthly,
+  /OpenYo/ => :weekly
 }
 
 # priority Definition Hash
@@ -31,7 +36,8 @@ priorities = {
   /^blog\/20\d\d/ => 0.4,
   /lifepng/ => 0.8,
   /errors/ => 0.2,
-  /about/ => 0.8
+  /about/ => 0.8,
+  /OpenYo/ => 1.0
 }
 
 xml.instruct!
