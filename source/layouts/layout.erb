@@ -24,7 +24,7 @@
 
     <meta property="og:title" content="<%= current_page.data.title || "いっと☆わーくす！" %>" />
     <meta property="og:url" content="<%= base_url %><%= current_page.url %>" />
-    <meta property="og:image" content="<%= base_url %>/img/1012-ogp.png" />
+    <meta property="og:image" content="<%= current_page.data.ogpImage || base_url + "/img/1012-ogp.png" %>" />
     <meta property="og:description" content="<%= current_page.data.ogpDescription || ";; This buffer is for notes you don't want to save, and for Lisp evaluation. ;; If you want to create a file, visit that file with C-x C-f, ;; then enter the text in that file's own buffer." %>" />
  
     <%= partial "analytics" %>
