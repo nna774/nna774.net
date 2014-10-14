@@ -146,7 +146,36 @@ code{
     font-size: large;
     font-weight: bolder;
     word-spacing: 10px;
+    overflow: hidden;
 }
 .headerMenuElem{
+    margin: 0 10px;
 }
 
+.sprite-1012{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -18px;
+    background: url("/img/headerMenu.png") no-repeat;
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+}
+.sprite-OpenYo{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -18px;
+    background: url("/img/headerMenu.png") no-repeat;
+    background-position: 0 -32px;
+    width: 16px;
+    height: 16px;
+}
+.sprite-feed{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -18px;
+    background: url("/img/headerMenu.png") no-repeat;
+    background-position: 0 -64px;
+    width: 16px;
+    height: 16px;
+}
