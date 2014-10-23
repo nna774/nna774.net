@@ -26,6 +26,11 @@ tags:
 
     i;main(r){scanf("%d",&i);i?main(r*i--):printf("%d",r);}
 
+【追記】06:35 同着
+
+    i;main(r){for(i=getchar()-48;r*=i--?:printf("%d",r););}
+
+    i;main(r){for(scanf("%d",&i);r*=i--?:printf("%d",r););}
 
 元のコード
 
