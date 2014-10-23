@@ -16,6 +16,17 @@ tags:
 
     i;main(r){r*=i--?:scanf("%d",&i);i?main(r):printf("%d",r);}
 
+【追記】06:10
+
+    i;main(r){i||scanf("%d",&i);i?main(r*i--):printf("%d",r);}
+
+わずかに良くなる。
+
+【追記】06:12
+
+    i;main(r){scanf("%d",&i);i?main(r*i--):printf("%d",r);}
+
+
 元のコード
 
     #include <stdio.h>
@@ -31,5 +42,9 @@ tags:
         printf("%d", fact(n));
         return 0;
     }
+
+テスト環境
+
+    $ for i in `seq 0 12`; sh -c "echo $i | ./a.out "
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
