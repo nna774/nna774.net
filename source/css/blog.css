@@ -179,3 +179,12 @@ code{
     width: 16px;
     height: 16px;
 }
+
+blockquote {
+    background-color: #F5FFFA;
+    border-style: outset;
+    border-color: black;
+    border-width: 1px;
+    margin: 0 10px;
+    padding: 10px;
+}
