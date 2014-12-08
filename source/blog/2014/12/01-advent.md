@@ -40,5 +40,5 @@ border-bottom: 1px solid #ccc;
 <tr><td>二日目(12/02)</td> <td><a href="/blog/2014/12/02/advent.html">さっそく溜めてしまってた</a></td></tr>
 <tr><td>三日目(12/03)</td> <td><a href="/blog/2014/12/03/advent.html">ずっと寝ていた</a></td></tr>
 <tr><td>四日目(12/04)</td> <td><a href="/blog/2014/12/04/advent.html">さかのぼって書いた。そしてうだうだ書いてる。</a></td></tr>
-<tr><td>四日目(12/04)</td> <td><a href="/blog/2014/12/05/advent.html">モバマス日記だよ</a></td></tr>
+<tr><td>五日目(12/05)</td> <td><a href="/blog/2014/12/05/advent.html">モバマス日記だよ</a></td></tr>
 </table>
