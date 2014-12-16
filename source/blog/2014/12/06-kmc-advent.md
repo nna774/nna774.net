@@ -10,7 +10,7 @@ tags: KMC
 
 Yo! KMC 二回生のnona7 です。
 
-みなさんは[Yo](justyo.co) 使ってますか？
+みなさんは[Yo](http://justyo.co/) 使ってますか？
 
 # What’s YO?
 
