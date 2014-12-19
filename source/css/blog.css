@@ -152,32 +152,23 @@ code{
     margin: 0 10px;
 }
 
-.sprite-1012{
+.sp-h {
     position: absolute;
     margin-top: 5px;
     margin-left: -18px;
-    background: url("/img/headerMenu.png") no-repeat;
-    background-position: 0 0;
     width: 16px;
     height: 16px;
+    background: url("/img/headerMenu.png") no-repeat;
+}
+
+.sprite-1012{
+    background-position: 0 0;
 }
 .sprite-OpenYo{
-    position: absolute;
-    margin-top: 5px;
-    margin-left: -18px;
-    background: url("/img/headerMenu.png") no-repeat;
     background-position: 0 -32px;
-    width: 16px;
-    height: 16px;
 }
 .sprite-feed{
-    position: absolute;
-    margin-top: 5px;
-    margin-left: -18px;
-    background: url("/img/headerMenu.png") no-repeat;
     background-position: 0 -64px;
-    width: 16px;
-    height: 16px;
 }
 
 blockquote {
