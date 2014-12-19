@@ -15,7 +15,7 @@ header > a:link, header > a:visited {
     overflow: auto;
 }
 
-@media screen and (min-width: 761px){
+@media screen and (min-width: 761px){ /* PC */
   main {
       width: 100%;
       float: right;
@@ -51,10 +51,6 @@ header > a:link, header > a:visited {
       width: 200px;
       float: right;
   }
-  #sideBar h2:before {
-      content: url("/img/glider20.png");
-      padding-right: 5px;
-  }
   #pBar{
       font-weight: bolder;
       margin: 10px;
@@ -73,12 +69,6 @@ header > a:link, header > a:visited {
   }
 }
 @media screen and (max-width: 760px){ /* スマートフォン向け */
-  #sideBar {
-      display: none;
-  }
-  #sideBar h2:before {
-      display: none;
-  }
   #img {
       display: none;
   }
@@ -200,6 +190,11 @@ code{
 }
 .sprite-feed{
     background-position: 0 -64px;
+}
+
+#sideBar h2:before {
+    content: url("/img/glider20.png");
+    padding-right: 5px;
 }
 
 blockquote {
