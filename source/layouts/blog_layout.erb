@@ -36,6 +36,7 @@
     <meta property="og:url" content="<%= base_url %><%= current_page.url %>" />
     <meta property="og:image" content="<%= base_url %>/img/1012-ogp.png" />
     <meta property="og:description" content="<%= CGI.escapeHTML(strip_tags current_article.body[0,140]) + '... - ' unless current_article.nil?  %>いっと☆わーくす！" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <%= partial "analytics" %>
 

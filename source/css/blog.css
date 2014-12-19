@@ -15,23 +15,98 @@ header > a:link, header > a:visited {
     overflow: auto;
 }
 
-main {
-    width: 100%;
-    float: right;
-    margin-left: -200px;
+@media screen and (min-width: 761px){
+  main {
+      width: 100%;
+      float: right;
+      margin-left: -200px;
+  }
+  main > *{
+      margin-left: 210px;
+  }
+  #img {
+      width: 180px;
+      float: right;
+      margin-top: auto;
+      padding: 10px;
+/* padding-bottom: 10px;
+ * padding-left: 10px; */
+/* margin-bottom: auto;
+ * padding-left: 3px ; */
+      /* padding-left: 10px; */
+    /* background-color: #6f6; */
+  }
+  #banner {
+      width: 100%;
+      float: right;
+      margin-left: -200px;
+      /* background-color: #6f6; */
+      /* padding-top: 10px; */
+      padding-bottom: 10px;
+  }
+  #banner > h1{
+      margin-top: 10px;
+  }
+  #sideBar {
+      width: 200px;
+      float: right;
+  }
+  #sideBar h2:before {
+      content: url("/img/glider20.png");
+      padding-right: 5px;
+  }
+  #pBar{
+      font-weight: bolder;
+      margin: 10px;
+  }
+  #1poinst {
+      font-size: large;
+      font-weight: bolder;
+      margin: 10px;
+  }
+  #headerMenu {
+      margin: 20px;
+      font-size: large;
+      font-weight: bolder;
+      word-spacing: 10px;
+      overflow: hidden;
+  }
 }
-
-main > *{
-    margin-left: 210px;
-}
-
-#sideBar {
-    width: 200px;
-    float: right;
-}
-#sideBar h2:before {
-    content: url("/img/glider20.png");
-    padding-right: 5px;
+@media screen and (max-width: 760px){ /* スマートフォン向け */
+  #sideBar {
+      display: none;
+  }
+  #sideBar h2:before {
+      display: none;
+  }
+  #img {
+      display: none;
+  }
+  #banner {
+      width: 100%;
+      float: right;
+      margin-left: -200px;
+      /* background-color: #6f6; */
+      /* padding-top: 10px; */
+      padding-bottom: 1px;
+  }
+  #banner > h1{
+      font-size: 20px;
+      font-weight: bolder;
+  }
+  #pBar{
+      font-weight: bolder;
+      margin: 0;
+  }
+  #1poinst {
+      font-size: large;
+      font-weight: bolder;
+  }
+  #headerMenu{
+    font-size: large;
+    word-spacing: 10px;
+    overflow: hidden;
+  }
 }
 
 footer{
@@ -104,50 +179,6 @@ code{
     overflow: auto;
 }
 
-#img {
-    width: 180px;
-    float: right;
-    margin-top: auto;
-    padding: 10px;
-    /* padding-bottom: 10px;
-     * padding-left: 10px; */
-    /* margin-bottom: auto;
-     * padding-left: 3px ; */
-    /* padding-left: 10px; */
-    /* background-color: #6f6; */
-}
-
-#banner {
-    width: 100%;
-    float: right;
-    margin-left: -200px;
-    /* background-color: #6f6; */
-    /* padding-top: 10px; */
-    padding-bottom: 10px;
-}
-
-#banner > h1{
-    margin-top: 10px;
-}
-
-#1poinst {
-    font-size: large;
-    font-weight: bolder;
-    margin: 10px;
-}
-
-#pBar{
-    font-weight: bolder;
-    margin: 10px;
-}
-
-#headerMenu{
-    margin: 20px;
-    font-size: large;
-    font-weight: bolder;
-    word-spacing: 10px;
-    overflow: hidden;
-}
 .headerMenuElem{
     margin: 0 10px;
 }

@@ -54,3 +54,7 @@ footer {
 #hostOn > a, #_commitHash > a{
     color: inherit;
 }
+
+img {
+  max-width: 100%;
+}
