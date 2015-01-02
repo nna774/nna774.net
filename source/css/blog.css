@@ -48,6 +48,9 @@ header > a:link, header > a:visited {
   #banner > h1{
       margin-top: 10px;
   }
+  #jumpToSide {
+      display: none;
+  }
   #sideBar {
       width: 200px;
       float: right;
