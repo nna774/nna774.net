@@ -10,6 +10,9 @@
     <%= partial "css/default" %>
     <%= partial "customs" %>
 
+    <meta name="author" content="NoNameA 774">
+    <meta name="copyright" content="NoNameA 774 (nonamea774@nnn77) <nonamea774@gmail.com>">
+    <meta name="description" content="<%= current_page.data.ogpDescription || ";; This buffer is for notes you don't want to save, and for Lisp evaluation. ;; If you want to create a file, visit that file with C-x C-f, ;; then enter the text in that file's own buffer." %>" />
     <% if current_page.url == "/" || current_page.data.ogpType == "website" %>
       <meta property="og:type" content="website" />
     <% else %>

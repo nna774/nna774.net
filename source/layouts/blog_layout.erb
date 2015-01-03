@@ -22,6 +22,9 @@
       <% end %>
     <% end %>
 
+    <meta name="author" content="NoNameA 774">
+    <meta name="copyright" content="NoNameA 774 (nonamea774@nnn77) <nonamea774@gmail.com>">
+    <meta name="description" content="<%= CGI.escapeHTML(strip_tags current_article.body[0,140]) + '... - ' unless current_article.nil?  %>いっと☆わーくす！" />
     <% if current_page.url == "/blog/" %>
       <meta property="og:type" content="website"/>
     <% else %>
