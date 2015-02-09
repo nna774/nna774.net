@@ -14,6 +14,7 @@
 <article title="<%= current_article.title %>">
   <%= partial("blog/articleHeader", :locals => { :current_article => current_article, :isIndex => false }) %>
   <%= yield %>
+  <%= partial("blog/articleFooter", :locals => { :current_article => current_article }) %>
 </article>
 <p class="articleChain">
   <a
