@@ -46,6 +46,6 @@ tags: Btrfs
 一理ある。
 
 # その他
-HDD 治ったのはいいけれど、`emerge` 中に謎の ICE を踏む現象
-[![Gyazo](https://i.gyazo.com/335edda2082e61504d280e9b3d894ea3.png)](https://gyazo.com/335edda2082e61504d280e9b3d894ea3)
+HDD 治ったのはいいけれど、`emerge` 中に謎の ICE を踏む現象<br />
+[![Gyazo](https://i.gyazo.com/335edda2082e61504d280e9b3d894ea3.png)](https://gyazo.com/335edda2082e61504d280e9b3d894ea3) <br />
 が辛すぎる感じだ。 Gentoo はむずかしい。
