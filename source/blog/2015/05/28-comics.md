@@ -202,6 +202,10 @@ is 良い。読もう。
 基本的にシリーズものは出てるの全部買いました。<br />
 合計金額を計算する等の嫌がらせには応じません。<br />
 
+# ref
+
+[同じく被害を受けているpastakさん](http://pastak-diary.hatenadiary.com/entry/2015/06/01/014412)
+
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
