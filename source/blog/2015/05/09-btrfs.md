@@ -1,7 +1,7 @@
 ---
 title:	［実績］Btrfs を壊す を解除しました。
 date: 2015-05-09 19:18 JST
-tags: Btrfs
+tags: Btrfs, Togetter
 ---
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
