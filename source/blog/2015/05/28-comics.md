@@ -40,7 +40,8 @@ tags: Togetter
 
 手動でリンク貼るの面倒だなと思ってたら、
 
-[![Gyazo](https://i.gyazo.com/eb9096d6f47fe5c9c8789ba559bc7108.png)](https://gyazo.com/eb9096d6f47fe5c9c8789ba559bc7108)
+[![embed](https://i.gyazo.com/eb9096d6f47fe5c9c8789ba559bc7108.png)](https://gyazo.com/eb9096d6f47fe5c9c8789ba559bc7108)
+
 こういうので埋め込めるのかぁッて思って登録した。
 
 ## [ハックス！](http://www.amazon.co.jp/dp/B00E8BTCVU)
