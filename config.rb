@@ -108,6 +108,7 @@ activate :blog do |blog|
 end
 
 page "/blog/feed.xml", layout: false
+page "/blog/rss", layout: false
 page "/sitemap.xml", layout: false
 
 activate :deploy do |deploy|
