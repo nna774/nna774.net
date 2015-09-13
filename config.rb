@@ -55,6 +55,7 @@ set :js_dir, 'js'
 set :images_dir, 'images'
 
 set :commitHash, `git log --pretty=format:'%H' -n1`
+set :commitMsg, `git log --pretty=format:'%s' -n1`
 
 set :minify_size, 1024
 
