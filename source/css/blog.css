@@ -2,8 +2,8 @@ body{
      text-align: center;
 }
 
-header > a:link, header > a:visited {
-    color:#000;
+body > header a:link, body > header a:visited {
+    color:blue;
 }
 
 #wrap {
