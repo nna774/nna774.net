@@ -4,3 +4,4 @@ rvm:
 notifications:
   email:
     on_success: never
+sudo: false
