@@ -6,7 +6,8 @@ middleman で管理されたnna774.net です。
 以下のようなURL で見ることができます。
 
 * [https://nna774.net](https://nna774.net)
-* [http://nna774.github.io/](http://nna774.github.io/) 結構最新とは離れています.
+* [https://nna774-net.herokuapp.com/blog/](https://nna774-net.herokuapp.com/blog/) Herokuにmasterが自動でデプロイされています。寝ていなければ私の家のラズベリーパイがぶっこわれていても見れるでしょう。
+* ~~[http://nna774.github.io/](http://nna774.github.io/) 結構最新とは離れています.~~
 * ~~[http://nna774.net.s3-website-ap-northeast-1.amazonaws.com/](http://nna774.net.s3-website-ap-northeast-1.amazonaws.com/) ある程度最新と同期していると思う.~~
 
 ビルド済みの静的ファイルは[nna774/nna774.github.com](https://github.com/nna774/nna774.github.com) にあります。(更新されていません)
