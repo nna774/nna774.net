@@ -6,7 +6,7 @@ middleman で管理されたnna774.net です。
 以下のようなURL で見ることができます。
 
 * [https://nna774.net](https://nna774.net)
-* [https://nna774-net.herokuapp.com/blog/](https://nna774-net.herokuapp.com/blog/) Herokuにmasterが自動でデプロイされています。寝ていなければ私の家のラズベリーパイがぶっこわれていても見れるでしょう。
+* [https://nna774-net.herokuapp.com/](https://nna774-net.herokuapp.com/) Herokuにmasterが自動でデプロイされています。寝ていなければ私の家のラズベリーパイがぶっこわれていても見れるでしょう。[middlemanをrackで動かすのは邪道だと公式ページにも書いてある](https://middlemanapp.com/jp/basics/start_new_site/#config-ru)ので、コミットハッシュとか出てないしちょっとおかしなことが起きてるかもしれないけどだいたい見れるはず。
 * ~~[http://nna774.github.io/](http://nna774.github.io/) 結構最新とは離れています.~~
 * ~~[http://nna774.net.s3-website-ap-northeast-1.amazonaws.com/](http://nna774.net.s3-website-ap-northeast-1.amazonaws.com/) ある程度最新と同期していると思う.~~
 
