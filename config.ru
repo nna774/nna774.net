@@ -1,2 +1,4 @@
-require 'middleman/rack'
-run Middleman.server
+use Rack::ETag
+use Rack::Deflater
+use Rack::Static, urls: [''], root: 'build', index: 'index.html'
+run lambda {|env|}
