@@ -1,7 +1,10 @@
 task :default => "build"
 
+desc "call build"
+task "assets:precompile" => [:build]
+
 desc "build by using middleman"
-task "build" do
+task :build do
   sh "bundle exec middleman build"
 end
 
