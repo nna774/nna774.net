@@ -1,7 +1,7 @@
 ---
 title: さっそく溜めてしまってた
 date: 2014-12-02 00:00 JST
-tags: 2014Advent
+tags: 2014Advent, アドベントカレンダー
 ---
 
 [NoNameA 774 アドベントカレンダー](/blog/2014/12/01/advent.html)の2日目です。
