@@ -46,11 +46,23 @@
 #   end
 # end
 
-set :base_url, 'https://nna774.net'
+helpers do
+  def base_url
+    'https://nna774.net'
+  end
 
-set :css_dir, 'css'
+  def css_dir
+    'css'
+  end
 
-set :js_dir, 'js'
+  def js_dir
+    'js'
+  end
+end
+#set :base_url, 'https://nna774.net'
+
+#set :css_dir, 'css'
+#set :js_dir, 'js'
 
 set :images_dir, 'images'
 
