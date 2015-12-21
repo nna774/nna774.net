@@ -113,10 +113,10 @@ page "/blog/rss", layout: false
 page "/sitemap.xml", layout: false
 
 activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.method       = :rsync
-  deploy.host         = 'pi.nna774.net'
-  deploy.path         = '/srv/http'
-  deploy.port         = "22"
-  deploy.flags        = '-av --exclude=".git/"'
+  deploy.build_before  = true
+  deploy.deploy_method = :rsync
+  deploy.host          = 'pi.nna774.net'
+  deploy.path          = '/srv/http'
+  deploy.port          = "22"
+  deploy.flags         = '-av --exclude=".git/"'
 end
