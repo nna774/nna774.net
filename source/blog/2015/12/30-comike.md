@@ -7,7 +7,14 @@ tags: コミケ, Piet
 [以前告知した](/blog/2015/10/30/c89.html)通り、
 明日(三日目)、東ム-55bにてPietの同人誌を頒布します。
 
-![表紙](/blog/2015/12/30/hyoushi.jpg)
+24P、値段は多分200円です。
+Pietの同人誌なのでカラーにしたかったのですが、
+残念ながらモノクロになります。
+カラーのPDFのダウンロードURIをつけました。
+
+表紙です。<br />
+![表紙](/blog/2015/12/30/hyoushi.jpg)<br />
+<blockquote class="twitter-tweet" lang="ja"><p lang="ja" dir="ltr">Pietで「ああ～心がぴょんぴょんするんじゃ～」と出力するチノちゃん描きました！ <a href="https://t.co/jRg80hWlC4">pic.twitter.com/jRg80hWlC4</a></p>&mdash; むらむらむらたむら (@paradigm_9) <a href="https://twitter.com/paradigm_9/status/677612736063258624">2015, 12月 17</a></blockquote>
 
 [目次(pdf)](/blog/2015/12/30/mokuji.pdf)
 
