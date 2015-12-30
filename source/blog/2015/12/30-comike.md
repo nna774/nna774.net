@@ -1,7 +1,7 @@
 ---
-title: C89頒布物
+title: "C89頒布物"
 date: 2015-12-30 14:39 JST
-tags: コミケ
+tags: コミケ, Piet
 ---
 
 [以前告知した](/blog/2015/10/30/c89.html)通り、
