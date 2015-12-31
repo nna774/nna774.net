@@ -46,7 +46,11 @@
 #   end
 # end
 
-set :base_url, 'https://nna774.net'
+helpers do
+  def base_url
+    'https://nna774.net'
+  end
+end
 
 set :css_dir, 'css'
 
