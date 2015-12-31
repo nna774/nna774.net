@@ -10,7 +10,7 @@ gem "middleman-livereload"
 gem "middleman-minify-html"
 gem "middleman-blog"
 gem "builder"
-gem "middleman-deploy", github: "middleman-contrib/middleman-deploy"
+gem "middleman-deploy", '2.0.0.pre.alpha'
 
 gem "rake"
 
