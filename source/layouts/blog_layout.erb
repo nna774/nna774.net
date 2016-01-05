@@ -96,9 +96,12 @@
           <a href="<%= blog_year_path(year) %>">
             <%= year %>
           </a>
+          (<%= articles.size %>)
           <ul>
             <% articles.group_by {|a| a.date.month}.each do |month, month_articles| %>
-            <li><a href="<%= blog_month_path(year, month) %>"><%= month_articles.first.date.strftime("%b") %></a>(<%= month_articles.size %>)</li>
+            <li>
+              <a href="<%= blog_month_path(year, month) %>"><%= month_articles.first.date.strftime("%b") %></a>(<%= month_articles.size %>)
+            </li>
             <% end %>
           </ul>
           <% end %>
