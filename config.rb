@@ -46,16 +46,24 @@
 #   end
 # end
 
-set :base_url, 'https://nna774.net'
+helpers do
+  def base_url
+    'https://nna774.net'
+  end
+
+  def commitHash
+    `git log --pretty=format:'%H' -n1`
+  end
+  def commitMsg
+    `git log --pretty=format:'%s' -n1`
+  end
+end
 
 set :css_dir, 'css'
 
 set :js_dir, 'js'
 
 set :images_dir, 'images'
-
-set :commitHash, `git log --pretty=format:'%H' -n1`
-set :commitMsg, `git log --pretty=format:'%s' -n1`
 
 set :minify_size, 1024
 
@@ -86,7 +94,7 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
 
-  blog.permalink = "{year}/{month}/{day}/{title}"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
   blog.sources = "{year}/{month}/{day}-{title}"
   blog.taglink = "tags/{tag}.html"
