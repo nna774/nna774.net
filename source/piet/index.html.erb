@@ -1,22 +1,47 @@
 ---
 title: "Piet"
-#customCSS: ["about"]
+customCSS: ["about"]
 #customCSSInline: "h2, h3 { margin: 5px; } section { line-height: 120%; padding-left: 10px; } "
 ---
 
-<h1>Piet</h1>
-ここになにか書きます。<br />
+<div id="mainWrap">
+  <h1>Piet</h1>
+  ここになにか書きます。
 
-<h2>レポジトリ</h2>
-<ul>
-  <li><%= link_to 'nna774/piet-testutils', 'https://github.com/nna774/piet-testutils' %>
-  <li><%= link_to 'nna774/piet-automata', 'https://github.com/nna774/piet-automata' %>
-</ul>
+  <section>
+  <h2>レポジトリ</h2>
+  <ul>
+    <li><%= link_to 'nna774/piet-testutils', 'https://github.com/nna774/piet-testutils' %>
+    <li><%= link_to 'nna774/piet-automata', 'https://github.com/nna774/piet-automata' %>
+  </ul>
+  </section>
 
-<h2>C88に出したペーパー</h2>
-<p>
-とりあえず、<a href="https://github.com/nna774/C88Paper/">ペーパーのレポジトリ</a>を置いときます。ビルドしたPDFは<a href="./c88paper.pdf">ここ</a>です。
-</p>
+  <section>
+    <h2 id="_c88">C88に出したペーパー</h2>
+    <p>
+      とりあえず、<a href="https://github.com/nna774/C88Paper/">ペーパーのレポジトリ</a>を置いときます。ビルドしたPDFは<a href="./c88paper.pdf">ここ</a>です。
+    </p>
+  </section>
 
-<h2>世界最高のPietエディタ</h2>
-<%= link_to 'kndama/Pidet', 'https://github.com/kndama/Pidet' %>
+  <section>
+    <h2 id="_c89">C89頒布物</h2>
+    <p>
+      <%= link_to "告知記事", "/blog/2015/12/30/comike.html" %>
+    </p>
+    <p>
+      この本を買って下さった人はあとがきのところに書いてあるパスワードで
+      <%= link_to "ここ", "/piet/C89Book.pdf" %>
+      からPDFをダウンロードしていただくことができます。
+    </p>
+    <p>
+      この本ですが、めでたく20部完売となりました。次回イベント等に参加する際には少し再び刷ろうかと思います。既にPDFになっているので、電子書籍として販売も容易なんですが、現在どうしたら良いのか考え中です。次回販売時に電子書籍の販売も開始する？ 需要があるよという声がもし来たら前倒しも考えますがとりあえずは。
+    </p>
+  </section>
+
+  <section>
+  <h2>世界最高のPietエディタ</h2>
+    <p>
+      <%= link_to 'kndama/Pidet', 'https://github.com/kndama/Pidet' %>
+    </p>
+  </section>
+</div>
