@@ -28,7 +28,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.8)
+    eventmachine (1.0.9.1)
     execjs (2.6.0)
     fastimage (1.8.1)
       addressable (~> 2.3, >= 2.3.5)
@@ -84,7 +84,7 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
-    middleman-livereload (3.4.5)
+    middleman-livereload (3.4.6)
       em-websocket (~> 0.5.1)
       middleman-core (>= 3.3)
       rack-livereload (~> 0.3.15)
@@ -113,12 +113,12 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (10.4.2)
+    rake (10.5.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     ref (2.0.0)
-    sass (3.4.20)
+    sass (3.4.21)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
