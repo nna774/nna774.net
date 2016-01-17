@@ -1,7 +1,7 @@
 ---
 title: middleman4への移行
 date: 2016-01-13 02:26 JST
-tags: 
+tags: Middleman
 ---
 
 middleman4へ移行した。
