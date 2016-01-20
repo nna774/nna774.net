@@ -72,6 +72,11 @@
     <div id="wrap">
       <main role="main">
         <%= yield %>
+	<% if current_page.url != "/blog/" %>
+          <div id="mainAd">
+	    <%= partial "adsense" %>
+          </div>
+	<% end %>
       </main>
     
       <aside id="sideBar">
@@ -132,7 +137,15 @@
           <p>
             <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/cc-by-sa_88x31.png" width="88" height="31" /></a><br />And, this work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a> or <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
           </p>
+
         </div>
+
+	<% if current_page.url == "/blog/" %>
+          <div id="sideAd">
+            <h2>広告</h2>
+	      <%= partial "adsense" %>
+          </div>
+	<% end %>
       </aside>
     </div>
 
@@ -140,7 +153,9 @@
     <%= partial "address" %>
     <%= partial "hostOn" %>
     <%= partial "pageDetail" %>
-    <%= partial "adsense" %>
+    <section class="adsense">
+      <%= partial "adsense" %>
+    </section>
   </footer>
   </body>
 </html>
