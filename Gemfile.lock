@@ -140,7 +140,7 @@ DEPENDENCIES
   builder
   middleman (>= 4.0.0)
   middleman-blog (>= 4.0.0)
-  middleman-deploy (= 2.0.0.pre.alpha)
+  middleman-deploy (>= 2.0.0.pre.alpha)
   middleman-livereload
   middleman-minify-html
   rake
