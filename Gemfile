@@ -15,3 +15,5 @@ gem "middleman-deploy", '>=2.0.0.pre.alpha'
 gem "rake"
 
 gem 'therubyracer'
+
+gem 'pry'
