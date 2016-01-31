@@ -13,12 +13,13 @@ body > header a:link, body > header a:visited {
     margin-right: auto;
     text-align: left;
     overflow: auto;
+    word-wrap:break-word;
 }
 
 
 @media screen and (min-width: 761px){ /* PC */
   main {
-      width: 100%;
+      width: 99%;
       float: right;
       margin-left: -200px;
   }
@@ -73,6 +74,9 @@ body > header a:link, body > header a:visited {
   }
 }
 @media screen and (max-width: 760px){ /* スマートフォン向け */
+  main{
+      width: 99%;
+  }
   #img {
       display: none;
   }
