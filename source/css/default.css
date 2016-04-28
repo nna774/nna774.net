@@ -46,7 +46,7 @@ footer {
     padding-top: 5px;
 }
 
-#hostOn, #pageDetail, #_commitHash {
+#hostOn, #pageDetail, #_commitHash, #_buildDate {
     font-size: small;
     color: gray;
 }
