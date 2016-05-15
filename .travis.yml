@@ -5,6 +5,8 @@ rvm:
   - 2.3.0
   - 2.3.1
 install:
+  - time bundle install
+script:
   - time bundle exec rake
 notifications:
   email:
