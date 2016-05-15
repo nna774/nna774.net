@@ -5,7 +5,7 @@ rvm:
   - 2.3.0
   - 2.3.1
 install:
-  - time bundle install
+  - time bundle install --without production --deployment
 script:
   - time bundle exec rake
 notifications:
