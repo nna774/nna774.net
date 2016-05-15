@@ -5,7 +5,7 @@ rvm:
   - 2.3.0
   - 2.3.1
 install:
-  - time bundle install --without production --deployment
+  - time bundle install --without production --deployment --jobs=4
 script:
   - time bundle exec rake
 notifications:
@@ -13,5 +13,6 @@ notifications:
     on_success: never
 sudo: false
 cache:
+  apt: true
   directories:
   - vendor/bundle
