@@ -51,6 +51,10 @@ helpers do
     'https://nna774.net'
   end
 
+  def onion_domain
+    'j5e4w6u3apivbn44.onion'
+  end
+
   def commitHash
     `git log --pretty=format:'%H' -n1`
   end
