@@ -4,6 +4,18 @@ date: 2016-05-13 20:12 JST
 tags: URI
 ---
 
+<ins datetime="2016-07-18T22:30:00+09:00">
+  <b>2016/07/18 追記</b><br />
+  以下のツイートが消えていることに気付いたので、ちょっと見てみたら(2016年7月18日閲覧)、
+</ins>
+<blockquote>
+  運用停止後の「cyberjapan.jp」ドメインの取り扱いについては、<a href="https://www.cio.go.jp/assets/domainmngguide-v1-1506.pdf" rel="nofollow">「ドメイン管理ガイド（1.0版）」[PDF 465KB]</a>（平成27年6月5日内閣官房 情報通信技術（IT）総合戦略室）（※2）に基づき、継続的に検討していきます。
+</blockquote>
+<ins datetime="2016-07-18T22:30:00+09:00">
+  だそうで、なんとか考えなおして貰えたようで。ひとまずめでたいですね。<br />
+  <b>2016/07/18 追記ここまで</b>
+</ins>
+
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">旧地理院地図・電子国土Webで利用していたドメイン「cyberjapan.jp」を平成30年度に廃止します。廃止後、国土地理院はドメイン「cyberjapan.jp」の保持を行いませんので、ご留意ください。 <a href="https://t.co/JNUVgX11Lk">https://t.co/JNUVgX11Lk</a></p>&mdash; 地理院地図 (@gsi_cyberjapan) <a href="https://twitter.com/gsi_cyberjapan/status/730623420564545537">2016年5月12日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
