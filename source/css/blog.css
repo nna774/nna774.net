@@ -105,10 +105,6 @@ body > header a:link, body > header a:visited {
     word-spacing: 10px;
     overflow: hidden;
   }
-
-  #sideAd {
-      margin-bottom: 10px;
-  }
 }
 
 footer{
@@ -220,4 +216,8 @@ blockquote {
 
 ins {
     text-decoration: none;
+}
+
+#sideAd, #mainAd {
+    margin-bottom: 10px;
 }
