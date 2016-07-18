@@ -22,7 +22,9 @@ layout: blog_layout
 <% page_articles.each_with_index do |article, i| %>
   <article title="<%= article.title %>">
     <%= partial(:articleHeader, :locals => { :current_article => article, :isIndex => true }) %>
-    <%= article.body %>
+    <div class="articleBody">
+      <%= article.body %>
+    </div>
   </article>
 <% end %>
 

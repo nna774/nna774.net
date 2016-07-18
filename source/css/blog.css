@@ -129,6 +129,10 @@ article {
     margin-top: 5px;
 }
 
+.articleBody {
+    margin-top: 5px;
+}
+
 .articleMeta{
     background-color: #eee;
     font-size: small;
@@ -160,7 +164,7 @@ pre {
     border-style: outset;
     border-color: black;
     border-width: 1px;
-    margin: 0 10px;
+    margin: 5px 10px;
     padding: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
@@ -210,6 +214,6 @@ blockquote {
     border-style: outset;
     border-color: black;
     border-width: 1px;
-    margin: 0 10px;
+    margin: 5px 10px;
     padding: 10px;
 }
