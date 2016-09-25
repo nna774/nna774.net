@@ -34,7 +34,7 @@ GEM
       tilt
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
-    hashie (3.4.4)
+    hashie (3.4.6)
     htmlcompressor (0.2.0)
     http_parser.rb (0.6.0)
     i18n (0.7.0)
@@ -113,7 +113,7 @@ GEM
     rack (1.6.4)
     rack-livereload (0.3.16)
       rack
-    rake (11.2.2)
+    rake (11.3.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
