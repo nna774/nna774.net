@@ -94,7 +94,7 @@ GEM
     middleman-minify-html (3.4.1)
       htmlcompressor (~> 0.2.0)
       middleman-core (>= 3.2)
-    minitest (5.9.0)
+    minitest (5.9.1)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (3.2.0)
