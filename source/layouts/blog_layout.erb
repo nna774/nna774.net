@@ -48,17 +48,19 @@
   <body>
     <header role="banner" id="head">
       <div id="banner">
-        <h1><a href="/blog/" rel="index">/dev/nona (いっと☆わーくす！)</a></h1>
-        <p id="1point"><%= partial("blog/1point" , :locals => { :path => current_page.url }) %></p>
-        <p id="pBar">[##--------] 28%</p>
-        <nav id="headerMenu">
-          <span class="headerMenuElem"><a href="/" rel="index"><span class="sprite-1012 sp-h"></span>top</a></span>
-          <span class="headerMenuElem"><a href="/blog/feed.xml" rel="alternate"><span class="sprite-feed sp-h"></span>feed</a></span>
-          <span class="headerMenuElem"><a href="/OpenYo/"><span class="sprite-OpenYo sp-h"></span>OpenYo</a></span>
-        </nav>
-        <nav id="jumpToSide">
-          <a href="#sideBar">めにゅーへ</a>
-        </nav>
+        <div class="bannerWrap">
+          <h1><a href="/blog/" rel="index">/dev/nona (いっと☆わーくす！)</a></h1>
+          <p id="1point"><%= partial("blog/1point" , :locals => { :path => current_page.url }) %></p>
+          <p id="pBar">[##--------] 28%</p>
+          <nav id="headerMenu">
+            <span class="headerMenuElem"><a href="/" rel="index"><span class="sprite-1012 sp-h"></span>top</a></span>
+            <span class="headerMenuElem"><a href="/blog/feed.xml" rel="alternate"><span class="sprite-feed sp-h"></span>feed</a></span>
+            <span class="headerMenuElem"><a href="/OpenYo/"><span class="sprite-OpenYo sp-h"></span>OpenYo</a></span>
+          </nav>
+          <nav id="jumpToSide">
+            <a href="#sideBar">めにゅーへ</a>
+          </nav>
+        </div>
       </div>
       <div id="img">
         <a href="/blog/" rel="index">
