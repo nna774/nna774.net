@@ -2,6 +2,7 @@
 title: 紀伊半島をまわっていた。
 date: 2016-09-06 23:59 JST
 tags: 日常, 乗りつぶし, Togetter
+ogpImage: https://nna774.net/blog/2016/09/06/1.png
 ---
 
 # あらすじ
@@ -19,6 +20,7 @@ tags: 日常, 乗りつぶし, Togetter
 
 [![https://gyazo.com/5c840d3d0d9573eff59c2951638d8574](https://i.gyazo.com/5c840d3d0d9573eff59c2951638d8574.png)](https://gyazo.com/5c840d3d0d9573eff59c2951638d8574)
 [![https://gyazo.com/18a84583daf243bdacdca7509402465f](https://i.gyazo.com/18a84583daf243bdacdca7509402465f.png)](https://gyazo.com/18a84583daf243bdacdca7509402465f)
+[ジョルダン乗り換え検索](http://www.jorudan.co.jp/)
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">弊社アルバイトが和歌山の某駅で途中下車したのを監視しています．昼飯でも食うんだろうか． <a href="https://t.co/wmRrG6J3Ng">https://t.co/wmRrG6J3Ng</a> <a href="https://t.co/G23pcSGupE">pic.twitter.com/G23pcSGupE</a></p>&mdash; ┝”□┐”ネ (@drobune) <a href="https://twitter.com/drobune/status/772983746874052608">2016年9月6日</a></blockquote>
 
@@ -43,6 +45,7 @@ tags: 日常, 乗りつぶし, Togetter
 ![](/blog/2016/09/06/1.png)
 ![](/blog/2016/09/06/2.png)
 ![](/blog/2016/09/06/3.png)
+[乗りつぶしオンライン](http://www.noritsubushi.org/)
 
 少しづつ進捗していきましょう。10年プロジェクトですね。
 
