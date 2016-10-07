@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: あなたの予想に反して、このページが見えているでしょうか?
 date: 2014-02-12 00:18 JST
 tags:

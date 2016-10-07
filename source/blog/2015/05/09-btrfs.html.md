@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title:	［実績］Btrfs を壊す を解除しました。
 date: 2015-05-09 19:18 JST
 tags: Btrfs, Togetter

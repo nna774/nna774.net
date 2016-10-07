@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: さかのぼって書いた。そしてうだうだ書いてる。
 date: 2014-12-04 12:05 JST
 tags: 2014Advent, アドベントカレンダー, アイドルマスター, モバマス

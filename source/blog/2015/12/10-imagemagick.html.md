@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: ImageMagickで消耗
 date: 2015-12-10 00:35 JST
 tags: アドベントカレンダー

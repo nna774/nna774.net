@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: git push -f してこわかったはなし
 date: 2014-09-05 03:51 JST
 tags: Git

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: GR-SAKURA であそんでみた(1回目)
 date: 2014-03-20 03:35 JST
 tags: KMC, GR-SAKURA

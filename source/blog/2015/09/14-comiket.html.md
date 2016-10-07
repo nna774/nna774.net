@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: コミケの記事を書こうと思っていたら一月経っていた。
 date: 2015-09-14 01:18 JST
 tags: コミケ, Piet

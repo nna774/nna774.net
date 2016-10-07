@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: nginx に移行していた
 date: 2014-05-13 11:46 JST
 tags: Raspberry Pi, SPDY, SSL

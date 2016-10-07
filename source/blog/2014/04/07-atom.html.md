@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: atom
 date: 2014-04-07 00:00 JST
 tags: 日常

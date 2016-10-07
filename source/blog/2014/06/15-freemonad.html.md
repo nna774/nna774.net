@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Free Monad は難しいなぁってアレ
 date: 2014-06-15 18:34 JST
 tags: Haskell

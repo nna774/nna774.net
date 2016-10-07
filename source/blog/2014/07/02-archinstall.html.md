@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: MBA へのArch Linux Install
 date: 2014-07-02 23:48 JST
 tags: Arch Linux

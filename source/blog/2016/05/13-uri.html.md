@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: cyberjapan.jpがアダルトサイトになるかどうか、賭けをしましょう。
 date: 2016-05-13 20:12 JST
 tags: URI

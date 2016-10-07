@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Arch Linux で古いヴァージョンのGCC が欲しくなった時
 date: 2014-11-05 23:17 JST
 tags: GCC

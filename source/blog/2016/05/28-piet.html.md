@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Pietを描いてた。
 date: 2016-05-28 03:30 JST
 tags: Piet

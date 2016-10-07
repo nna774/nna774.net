@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: ジェンキンス氏
 date: 2014-02-14 23:55 JST
 tags: Jenkins, Kancolle, Anime, CI

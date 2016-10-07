@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 二日目
 date: 2015-12-02 03:33 JST
 tags: アドベントカレンダー

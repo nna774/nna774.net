@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 鳥取に行くっ！
 date: 2015-12-17 21:52 JST
 tags: アドベントカレンダー

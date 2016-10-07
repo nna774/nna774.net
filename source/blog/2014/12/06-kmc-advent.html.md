@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 不自由なYo からの脱却を求めて。【KMC アドベントカレンダー6日目】
 date: 2014-12-06 00:00 JST
 tags: KMC, アドベントカレンダー

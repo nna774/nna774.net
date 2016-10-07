@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: middleman4への移行
 date: 2016-01-13 02:26 JST
 tags: Middleman

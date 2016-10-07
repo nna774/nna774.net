@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: OSC Kyoto 1日目
 date: 2014-08-02 03:25 JST
 tags: KMC

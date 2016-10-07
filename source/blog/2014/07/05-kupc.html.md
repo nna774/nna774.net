@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: KUPC
 date: 2014-07-05 23:51 JST
 tags:

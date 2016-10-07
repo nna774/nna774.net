@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: test
 date: 2014-02-17 06:11 JST
 tags:

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: NoNameA 774 アドベントカレンダー1日目
 date: 2014-12-01 22:23 JST
 tags: 2014Advent, アドベントカレンダー

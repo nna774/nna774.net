@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: みりあSSRおめでとう
 date: 2016-02-01 00:46 JST
 tags: 日常, アイドルマスター, デレステ

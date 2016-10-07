@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: lifepng
 date: 2014-04-25 01:11 JST
 tags: JavaScript, LifeGame

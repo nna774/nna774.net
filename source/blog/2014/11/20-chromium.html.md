@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Chromium のビルド
 date: 2014-11-20 23:55 JST
 tags:

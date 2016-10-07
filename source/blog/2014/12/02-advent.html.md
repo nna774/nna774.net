@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: さっそく溜めてしまってた
 date: 2014-12-02 00:00 JST
 tags: 2014Advent, アドベントカレンダー

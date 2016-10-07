@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 無限のモラトリアム
 date: 2014-12-23 14:48 JST
 tags: アドベントカレンダー

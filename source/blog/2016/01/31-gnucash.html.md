@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: GnuCashでBTCを扱ったりとか。
 date: 2016-01-31 02:42 JST
 tags: GnuCash

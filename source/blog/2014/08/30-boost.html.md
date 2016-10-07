@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: KLab Boost Jam に参加して、六本木ヒルズで2048 のAI を強化した数少ない人になった話。
 date: 2014-08-30 23:59 JST
 tags: 2048

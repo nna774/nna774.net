@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 北海道からフェリーで帰ってくる間のメモ
 date: 2016-03-09 01:42 JST
 tags: 旅行

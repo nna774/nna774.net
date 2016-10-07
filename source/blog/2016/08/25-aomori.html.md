@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 一日目報告
 date: 2016-08-25 21:22 JST
 tags: 青森, Togetter

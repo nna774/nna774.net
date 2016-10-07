@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 最近買ったマンガとか
 date: 2015-05-28 02:43 JST
 tags: Togetter

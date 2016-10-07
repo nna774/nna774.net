@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 適当なChrome 拡張を作った
 date: 2014-03-02 15:02 JST
 tags: Chrome, SSL

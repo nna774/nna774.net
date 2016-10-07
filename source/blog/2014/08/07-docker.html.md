@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Docker 入門してみた.
 date: 2014-08-07 22:59 JST
 tags: Docker

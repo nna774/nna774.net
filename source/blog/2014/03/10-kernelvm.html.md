@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: KernelVM を聞きにいった
 date: 2014-03-10 01:24 JST
 tags: KernelVM

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: インジェクション的なメールアドレス
 date: 2014-02-12 21:31 JST
 tags: Email

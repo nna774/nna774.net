@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: クロスコンパイラbuild できた
 date: 2014-03-24 06:12 JST
 tags: GCC, GR-SAKURA

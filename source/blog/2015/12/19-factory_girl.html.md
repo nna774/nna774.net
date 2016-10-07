@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: FactoryGirlの一日
 date: 2015-12-19 00:00 JST
 tags: アドベントカレンダー

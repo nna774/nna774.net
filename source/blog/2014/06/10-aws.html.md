@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: AWS(Amazon Web Servise) のスポットインスタンスが思ったよりすごかった。
 date: 2014-06-10 10:39 JST
 tags: AWS

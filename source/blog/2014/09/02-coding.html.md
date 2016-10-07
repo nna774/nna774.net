@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: コーディング大会＠福井
 date: 2014-09-02 10:15 JST
 tags: KMC

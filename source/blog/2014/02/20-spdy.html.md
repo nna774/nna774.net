@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: SPDY...
 date: 2014-02-20 12:43 JST
 tags: SSL, SPDY, Raspberry Pi

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: ミッドナイト念仏に行った
 date: 2014-04-20 01:34 JST
 tags: 日常

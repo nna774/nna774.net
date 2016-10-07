@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: middleman blog
 date: 2016-01-18 16:45 JST
 tags: Middleman

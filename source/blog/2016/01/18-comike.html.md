@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: コミケ初サークル参加の感想
 date: 2016-01-18 02:21 JST
 tags: コミケ

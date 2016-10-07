@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Piet のテストツールを書いた｡
 date: 2015-07-08 21:07 JST
 tags: Piet

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 祈りましょう。いつか来る友利による救済の時を。
 date: 2015-12-18 00:00 JST
 tags: アドベントカレンダー

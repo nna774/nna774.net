@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 五十鈴改二
 date: 2014-02-16 01:25 JST
 tags: Kancolle, GPG

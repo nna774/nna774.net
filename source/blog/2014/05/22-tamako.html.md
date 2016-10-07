@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: たまこラブストーリーを見た
 date: 2014-05-22 03:28 JST
 tags: /dev/null, 日常

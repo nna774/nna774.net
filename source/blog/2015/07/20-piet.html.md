@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Pietのコードを自動生成するものを作った。
 date: 2015-07-20 05:51 JST
 tags: Piet

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 昨日一昨日
 date: 2015-12-16 03:45 JST
 tags: アドベントカレンダー

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 最近の様子
 date: 2015-02-09 18:56 JST
 tags:

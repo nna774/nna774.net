@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 楽園追放(ネタバレ要素は無いので安心です)
 date: 2014-11-21 03:14 JST
 tags:

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: llvm lib に渡すポインタは所有権を奪われるという話
 date: 2014-11-12 18:21 JST
 tags: メモ

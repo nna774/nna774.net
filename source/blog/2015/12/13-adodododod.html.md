@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 今日はおやすみです。
 date: 2015-12-13 00:01 JST
 tags: アドベントカレンダー

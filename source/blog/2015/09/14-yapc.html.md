@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: ブログを書くまでがYAPCです。YAPCの終わり。
 date: 2015-09-14 01:50 JST
 tags: 

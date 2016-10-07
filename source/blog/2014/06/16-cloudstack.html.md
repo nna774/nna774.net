@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 今KMC に入会すると自由にVPS が利用できます.
 date: 2014-06-16 20:59 JST
 tags: CloudStack, KMC, OpenStack

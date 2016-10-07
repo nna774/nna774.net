@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 3月ですね〜
 date: 2014-03-01 22:43 JST
 tags: 日常

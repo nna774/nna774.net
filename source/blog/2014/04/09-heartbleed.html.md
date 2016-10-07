@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Heartbleed
 date: 2014-04-09 23:03 JST
 tags: SSL, Raspberry Pi 

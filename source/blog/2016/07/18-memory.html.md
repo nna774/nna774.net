@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: memory
 date: 2016-07-18 21:56 JST
 tags: 

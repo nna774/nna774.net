@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Gentoo install from Arch Boot USB
 date: 2014-11-17 21:16 JST
 tags:

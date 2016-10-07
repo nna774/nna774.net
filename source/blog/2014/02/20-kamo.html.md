@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: いい鴨鍋であった
 date: 2014-02-20 11:24 JST
 tags:

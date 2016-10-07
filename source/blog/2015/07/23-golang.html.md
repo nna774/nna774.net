@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Golangのnet/httpに困っている。
 Date: 2015-07-23 05:46 JST
 tags: Golang

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: はい
 date: 2015-12-09 00:32 JST
 tags: アドベントカレンダー

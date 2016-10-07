@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 今日の成果
 date: 2014-10-24 05:16 JST
 tags:

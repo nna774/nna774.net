@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Herokuの独自ドメインhttps対応(CloudFlare万歳)
 date: 2016-01-26 02:51 JST
 tags: 

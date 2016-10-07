@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: mod_rewrite
 date: 2014-04-10 00:39 JST
 tags: Blog

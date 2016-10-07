@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: サイボウズ・ラボユースHackathon に参加してOpenYo の開発を進めてきたはなし。
 date: 2014-09-11 00:00 JST
 tags: OpenYo

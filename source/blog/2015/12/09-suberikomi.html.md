@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 寝るまでは今日
 date: 2015-12-09 00:29 JST
 tags: アドベントカレンダー

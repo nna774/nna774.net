@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 艦むすって人間なの？
 date: 2014-10-15 05:28 JST
 tags: Kancolle

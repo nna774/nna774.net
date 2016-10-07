@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Google Compute Engine のAutoscaler をさわってみたメモ
 date: 2015-01-02 00:14 JST
 tags: Google

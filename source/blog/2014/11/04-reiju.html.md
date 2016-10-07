@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 令呪を以て命じる
 date: 2014-11-04 23:07 JST
 tags:

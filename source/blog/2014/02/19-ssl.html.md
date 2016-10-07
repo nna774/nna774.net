@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: "SSL対応にした"
 date: 2014-02-19 05:32 JST
 tags: SSL, SPDY

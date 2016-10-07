@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Golangのnet/httpが期待通りの挙動をするようになっていた。
 date: 2016-01-22 21:20 JST
 tags: Golang

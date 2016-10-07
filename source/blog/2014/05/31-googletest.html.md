@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Google Test
 date: 2014-05-31 04:35 JST
 tags: 2048, CI

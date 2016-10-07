@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: いかづち
 date: 2015-07-01 23:58 JST
 tags: 

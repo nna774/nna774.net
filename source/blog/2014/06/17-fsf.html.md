@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: FSF(Free Software Foundation) のメンバーになった.
 date: 2014-06-17 20:19 JST
 tags: 

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: YubiKeyを買った。
 date: 2016-02-14 23:48 JST
 tags: YubiKey

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 瑞鳳が改になった。
 date: 2014-02-12 21:19 JST
 tags: Kancolle, Starbound

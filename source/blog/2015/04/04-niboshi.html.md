@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: お礼にぼし、かりかり。たいせつな日々
 date: 2015-04-04 05:23 JST
 tags:

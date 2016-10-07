@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: OpenYo のエンドポイントをSSL 対応にしました。
 date: 2014-09-21 13:20 JST
 tags: OpenYo

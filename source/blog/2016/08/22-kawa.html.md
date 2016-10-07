@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 高野川と水(or 水素水)
 date: 2016-08-22 01:42 JST
 tags: 

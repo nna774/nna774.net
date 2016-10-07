@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 手首が痛い。
 date: 2015-12-05 06:55 JST
 tags: アドベントカレンダー

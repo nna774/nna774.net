@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 新月 - P2P匿名掲示板
 date: 2015-03-20 19:16 JST
 tags: 

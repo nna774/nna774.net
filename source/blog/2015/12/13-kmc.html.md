@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: "使ってますか？ GCP - KMCアドベントカレンダー 13日目"
 date: 2015-12-13 00:00 JST
 tags: アドベントカレンダー

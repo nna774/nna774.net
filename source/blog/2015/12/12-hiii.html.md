@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: ひいい
 date: 2015-12-12 00:47 JST
 tags: アドベントカレンダー

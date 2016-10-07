@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 3月
 date: 2016-04-10 03:29 JST
 tags: 

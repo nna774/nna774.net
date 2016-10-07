@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: ずっと寝ていた
 date: 2014-12-03 00:00 JST
 tags: 2014Advent, アドベントカレンダー

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: あけましたおめでとうございます。
 date: 2015-01-01 23:56 JST
 tags:

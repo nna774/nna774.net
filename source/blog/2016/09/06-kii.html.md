@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 紀伊半島をまわっていた。
 date: 2016-09-06 23:59 JST
 tags: 日常, 乗りつぶし, Togetter

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: DMM のSim が来た
 date: 2015-01-16 23:00 JST
 tags:

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 3日目
 date: 2015-12-03 00:17 JST
 tags: アドベントカレンダー

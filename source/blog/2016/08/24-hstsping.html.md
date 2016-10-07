@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: hstsping
 date: 2016-08-24 01:46 JST
 tags: SSL, TLS

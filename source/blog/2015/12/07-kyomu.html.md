@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: moudameda
 date: 2015-12-07 23:50 JST
 tags: アドベントカレンダー

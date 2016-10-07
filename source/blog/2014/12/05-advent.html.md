@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: モバマス日記だよ
 date: 2014-12-05 00:00 JST
 tags: 2014Advent, アドベントカレンダー, アイドルマスター, デレステ

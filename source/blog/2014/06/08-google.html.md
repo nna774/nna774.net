@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: Google による検閲行為
 date: 2014-06-08 03:51 JST
 tags: Google

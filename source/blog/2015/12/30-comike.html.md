@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: "C89頒布物"
 date: 2015-12-30 14:39 JST
 tags: コミケ, Piet

@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: GR-SAKURA の環境を整えたい
 date: 2014-03-22 04:32 JST
 tags: GCC, GR-SAKURA

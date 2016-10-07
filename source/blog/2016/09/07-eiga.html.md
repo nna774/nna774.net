@@ -1,4 +1,5 @@
 ---
+directory_index: false
 title: 映画の雑感想
 date: 2016-09-07 23:59 JST
 tags: 日常
