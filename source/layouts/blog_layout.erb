@@ -7,6 +7,7 @@
     <%= partial "css/default" %>
 
     <%= stylesheet_link_tag "blog" %>
+    <%= stylesheet_link_tag "bootstrap" %>
 
     <%= partial "customs" %>
 
@@ -46,12 +47,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <%= partial "analytics" %>
-
   </head>
   
-  <body>
-    <header role="banner" id="head">
-      <div id="banner">
+  <body class="container">
+    <div role="banner" id="head" class="row center">
+      <div id="banner" class="col-md-9 col-md-push-3">
         <div class="bannerWrap">
           <h1><a href="/blog/" rel="index">/dev/nona (いっと☆わーくす！)</a></h1>
           <p id="1point"><%= partial("blog/1point" , :locals => { :path => current_page.url }) %></p>
@@ -61,12 +61,12 @@
             <span class="headerMenuElem"><a href="/blog/feed.xml" rel="alternate"><span class="sprite-feed sp-h"></span>feed</a></span>
             <span class="headerMenuElem"><a href="/OpenYo/"><span class="sprite-OpenYo sp-h"></span>OpenYo</a></span>
           </nav>
-          <nav id="jumpToSide">
+          <nav id="jumpToSide" class="hidden-md hidden-lg">
             <a href="#sideBar">めにゅーへ</a>
           </nav>
         </div>
       </div>
-      <div id="img">
+      <div id="img" class="col-md-3 col-md-pull-9 hidden-sm hidden-xs">
         <a href="/blog/" rel="index">
           <picture>
             <source type="image/webp" srcset="/img/1012-159x.webp" />
@@ -74,9 +74,9 @@
           </picture>
         </a>
       </div>
-    </header>
-    <div id="wrap">
-      <main role="main">
+    </div>
+    <div id="wrap" class="row">
+      <main role="main" class="col-md-9 col-md-push-3">
         <%= yield %>
 	<% if current_page.url != "/blog/" %>
           <div id="mainAd">
@@ -85,7 +85,7 @@
 	<% end %>
       </main>
     
-      <aside id="sideBar">
+      <aside id="sideBar" class="col-md-3 col-md-pull-9">
         <h2>Recent Articles</h2>
         <ol>
             <% blog.articles[0...10].each do |article| %>
