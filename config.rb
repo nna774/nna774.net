@@ -56,10 +56,10 @@ helpers do
   end
 
   def commitHash
-    `git log --pretty=format:'%H' -n1`
+    @commitHash ||= `git log --pretty=format:'%H' -n1`
   end
   def commitMsg
-    `git log --pretty=format:'%s' -n1`
+    @commitMsg ||= `git log --pretty=format:'%s' -n1`
   end
 end
 
