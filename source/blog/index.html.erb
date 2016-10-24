@@ -4,19 +4,7 @@ per_page: 10
 layout: blog_layout
 ---
 <% if paginate && num_pages > 1 %>
-  <p class="pageChain">
-  <a
-    <% if next_page %>
-      href="<%= next_page.url %>" rel="next"
-    <% end %>
-  >過去のページ</a>
-  Page <%= page_number %> of <%= num_pages %>
-  <a
-    <% if prev_page %>
-      href="<%= prev_page.url %>" rel="priv"
-    <% end %>
-  >未来のページ</a>
-  </p>
+  <%= partial(:pageChain) %>
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
@@ -29,17 +17,5 @@ layout: blog_layout
 <% end %>
 
 <% if paginate %>
-  <p class="pageChain">
-  <a
-    <% if next_page %>
-      href="<%= next_page.url %>" rel="next"
-    <% end %>
-  >過去のページ</a>
-  Page <%= page_number %> of <%= num_pages %>
-  <a
-    <% if prev_page %>
-      href="<%= prev_page.url %>" rel="priv"
-    <% end %>
-  >未来のページ</a>
-  </p>
+  <%= partial(:pageChain) %>
 <% end %>

@@ -7,6 +7,7 @@
     <%= partial "css/default" %>
 
     <%= stylesheet_link_tag "blog" %>
+    <%= stylesheet_link_tag "bootstrap" %>
 
     <%= partial "customs" %>
 
@@ -46,27 +47,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <%= partial "analytics" %>
-
   </head>
   
-  <body>
-    <header role="banner" id="head">
-      <div id="banner">
-        <div class="bannerWrap">
-          <h1><a href="/blog/" rel="index">/dev/nona (いっと☆わーくす！)</a></h1>
-          <p id="1point"><%= partial("blog/1point" , :locals => { :path => current_page.url }) %></p>
-          <p id="pBar">[##--------] 28%</p>
-          <nav id="headerMenu">
-            <span class="headerMenuElem"><a href="/" rel="index"><span class="sprite-1012 sp-h"></span>top</a></span>
-            <span class="headerMenuElem"><a href="/blog/feed.xml" rel="alternate"><span class="sprite-feed sp-h"></span>feed</a></span>
-            <span class="headerMenuElem"><a href="/OpenYo/"><span class="sprite-OpenYo sp-h"></span>OpenYo</a></span>
-          </nav>
-          <nav id="jumpToSide">
-            <a href="#sideBar">めにゅーへ</a>
-          </nav>
-        </div>
+  <body class="container">
+    <header role="banner" id="head" class="row center">
+      <div id="banner" class="col-lg-10 col-lg-push-2 col-md-9 col-md-push-3">
+        <h1><a href="/blog/" rel="index">/dev/nona (いっと☆わーくす！)</a></h1>
+        <p id="1point"><%= partial("blog/1point" , :locals => { :path => current_page.url }) %></p>
+        <p id="pBar">[##--------] 28%</p>
+        <nav id="headerMenu">
+          <span class="headerMenuElem"><a href="/" rel="index"><span class="sprite-1012 sp-h"></span>top</a></span>
+          <span class="headerMenuElem"><a href="/blog/feed.xml" rel="alternate"><span class="sprite-feed sp-h"></span>feed</a></span>
+          <span class="headerMenuElem"><a href="/OpenYo/"><span class="sprite-OpenYo sp-h"></span>OpenYo</a></span>
+        </nav>
+        <nav id="jumpToSide" class="hidden-md hidden-lg">
+          <a href="#sideBar">めにゅーへ</a>
+        </nav>
       </div>
-      <div id="img">
+      <div id="img" class="col-lg-2 col-lg-pull-10 col-md-3 col-md-pull-9 hidden-sm hidden-xs">
         <a href="/blog/" rel="index">
           <picture>
             <source type="image/webp" srcset="/img/1012-159x.webp" />
@@ -75,8 +73,8 @@
         </a>
       </div>
     </header>
-    <div id="wrap">
-      <main role="main">
+    <div id="wrap" class="row">
+      <main role="main" class="col-lg-10 col-lg-push-2 col-md-9 col-md-push-3">
         <%= yield %>
 	<% if current_page.url != "/blog/" %>
           <div id="mainAd">
@@ -85,7 +83,7 @@
 	<% end %>
       </main>
     
-      <aside id="sideBar">
+      <aside id="sideBar" class="col-lg-2 col-lg-pull-10 col-md-3 col-md-pull-9">
         <h2>Recent Articles</h2>
         <ol>
             <% blog.articles[0...10].each do |article| %>
