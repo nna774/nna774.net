@@ -1,0 +1,13 @@
+<p class="articleChain">
+  <% if current_article.previous_article %>
+    <%= link_to "&lt;&lt; 過去の記事", current_article.previous_article %>
+  <% else %>
+    &lt;&lt; 過去の記事
+  <% end %>
+
+  <% if current_article.next_article %>
+    <%= link_to "未来の記事 &gt;&gt;", current_article.next_article %>
+  <% else %>
+    未来の記事 &gt;&gt;
+  <% end %>
+</p>

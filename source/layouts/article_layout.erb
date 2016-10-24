@@ -1,16 +1,5 @@
 <% wrap_layout :blog_layout do %>
-<p class="articleChain">
-  <a
-  <% if current_article.previous_article %>
-     href="<%= current_article.previous_article.url %>" rel="prev"
-  <% end %>
-  >&lt;&lt; 過去の記事</a>
-  <a
-  <% if current_article.next_article %>
-    href="<%= current_article.next_article.url %>" rel="next"
-  <% end %>
-  >未来の記事 &gt;&gt;</a>
-</p>
+<%= partial("blog/articleChain") %>
 <article title="<%= current_article.title %>">
   <%= partial("blog/articleHeader", :locals => { :current_article => current_article, :isIndex => false }) %>
   <div class="articleBody">
@@ -18,17 +7,5 @@
   </div>
   <%= partial("blog/articleFooter", :locals => { :current_article => current_article }) %>
 </article>
-<p class="articleChain">
-  <a
-  <% if current_article.previous_article %>
-     href="<%= current_article.previous_article.url %>" rel="prev"
-  <% end %>
-  >&lt;&lt; 過去の記事</a>
-  <a
-  <% if current_article.next_article %>
-    href="<%= current_article.next_article.url %>" rel="next"
-  <% end %>
-  >未来の記事 &gt;&gt;</a>
-</p>
-
+<%= partial("blog/articleChain") %>
 <% end %>
