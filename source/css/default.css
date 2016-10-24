@@ -65,3 +65,7 @@ img {
     content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAP1BMVEUAAAAWGQeUqTAVGAclOxRjnDWVqjA4TxldkjJoozeeuTVvpTZnozdnojeUqjA3ThlckjIqMA2ZrzEpLg21zzqYTqELAAAAUUlEQVQY042QSwrAUAgD5wCdnfc/azev+MHCcxMYDIkCAAEKQZ1AdUJVvYGrvQfFMrlZDBNq0mglbuBqP0E/lU7rInz3VeF8osmET65O+xb0AnGlDAhA5X2PAAAAAElFTkSuQmCC");
     padding-right: 5px;
 }
+
+article {
+    font-size: 16px;
+}
