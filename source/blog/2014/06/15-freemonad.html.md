@@ -2,10 +2,9 @@
 directory_index: false
 title: Free Monad は難しいなぁってアレ
 date: 2014-06-15 18:34 JST
-tags: Haskell
+tags: Haskell, published_false
 customCSS: ["https://yandex.st/highlightjs/8.0/styles/default.min.css"]
 customJS:  ["https://yandex.st/highlightjs/8.0/highlight.min.js", "http://yandex.st/highlightjs/8.0/languages/haskell.min.js"]
-published: false
 ---
 
 一時期良く聞いたFree Monad, 最近KMC の中で話が出て, いまいちよくわからないところとかが出てきたので, ちょっとメモ的な.
