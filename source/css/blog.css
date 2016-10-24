@@ -2,9 +2,9 @@
  *      text-align: center;
  * } */
 
-body > header a:link, body > header a:visited {
-    color:blue;
-}
+/* body > header a:link, body > header a:visited {
+ *     color:blue;
+ * } */
 
 .center {
     text-align: center;
@@ -29,18 +29,18 @@ body > header a:link, body > header a:visited {
  *   main > *{
  *       margin-left: 210px;
  *   } */
-/*   #img {
- *       width: 180px;
- *       float: right;
- *       margin-top: auto;
- *       padding: 10px;
- * /\* padding-bottom: 10px;
- *  * padding-left: 10px; *\/
- * /\* margin-bottom: auto;
- *  * padding-left: 3px ; *\/
- *       /\* padding-left: 10px; *\/
- *     /\* background-color: #6f6; *\/
- *   } */
+  #img {
+      /* width: 180px;
+       * float: right; */
+      margin-top: 0.67em;
+      padding: 10px;
+/* padding-bottom: 10px;
+ * padding-left: 10px; */
+/* margin-bottom: auto;
+ * padding-left: 3px ; */
+      /* padding-left: 10px; */
+    /* background-color: #6f6; */
+  }
   /* #banner {
    *     width: 100%;
    *     float: right;
@@ -56,9 +56,6 @@ body > header a:link, body > header a:visited {
   * 
    * #banner > h1{
    *     margin-top: 10px;
-   * } */
-  /* #jumpToSide {
-   *     display: none;
    * } */
   /* #sideBar {
    *     width: 200px;
@@ -78,9 +75,12 @@ body > header a:link, body > header a:visited {
       font-size: large;
       font-weight: bolder;
       word-spacing: 10px;
-      overflow: hidden;
   }
-
+  #jumpToSide {
+      font-size: large;
+      font-weight: bolder;
+      word-spacing: 10px;
+  }
 /* footer{
  *     border-style: none;
  *     clear: both;
@@ -148,7 +148,7 @@ pre {
 
 #head {
     width: 100%;
-    float: right;
+    /* float: right; */
     margin-left: auto;
     margin-right: auto;
     /* text-align: center; */
