@@ -1,0 +1,13 @@
+<p class="pageChain">
+  <% if next_page %>
+    <%= link_to "過去のページ", next_page, :rel => "next" %>
+  <% else %>
+    過去のページ
+  <% end %>
+  Page <%= page_number %> of <%= num_pages %>
+  <% if prev_page %>
+    <%= link_to "未来のページ", prev_page, :rel => "prev" %>
+  <% else %>
+    未来のページ
+  <% end %>
+</p>
