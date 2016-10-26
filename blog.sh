@@ -32,3 +32,5 @@ echo "tags: "  >> "${PATH}"
 echo "---"  >> "${PATH}"
 
 echo "${PATH} created"
+
+/usr/bin/emacsclient "${PATH}"
