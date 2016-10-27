@@ -9,6 +9,9 @@ header{
 #scratch {
     font-size: small;
     color: purple;
+    font-family: monospace;
+    line-height: 0.95;
+    letter-spacing: -0.025em;
 }
 
 body {
