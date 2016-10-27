@@ -60,7 +60,7 @@ img {
 }
 
 /* ブログと共通 */
-#sideBar h2:before, .glider h3:before {
+#sideBar h2:before, .glider h3:before, dt:before { // 新デザイン移行完了の暁にはdt:beforeを消す。
   content: url("/img/glider20.png");
   content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAP1BMVEUAAAAWGQeUqTAVGAclOxRjnDWVqjA4TxldkjJoozeeuTVvpTZnozdnojeUqjA3ThlckjIqMA2ZrzEpLg21zzqYTqELAAAAUUlEQVQY042QSwrAUAgD5wCdnfc/azev+MHCcxMYDIkCAAEKQZ1AdUJVvYGrvQfFMrlZDBNq0mglbuBqP0E/lU7rInz3VeF8osmET65O+xb0AnGlDAhA5X2PAAAAAElFTkSuQmCC");
   padding-right: 5px;
