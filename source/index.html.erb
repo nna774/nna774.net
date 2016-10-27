@@ -2,24 +2,33 @@
 title: "いっと☆わーくす！"
 ---
 
-<div id="mainWrap">
-  <h2 id="pageName">index</h2>
-  <section>
-    <dl>
-      <dt><%= link_to "Blog", "/blog/" %></dt>
-      <dd>がんばって書きます……。</dd>
-      <dt><%= link_to "About", "/about/" %></dt>
-      <dd>インターネット上の私</dd>
-      <dt><%= link_to "LifePNG", "/lifepng/" %></dt>
-      <dd>JavaScript でライフゲームしてそれを画像にできるやつ。</dd>
-      <dt><%= link_to "OpenYo", "/OpenYo/" %></dt>
-      <dd>自由で拡張可能なYo クローン</dd>
-      <dt><%= link_to "Piet", "/piet/" %></dt>
-      <dd>pietについていろいろ書きます。</dd>
-    </dl>
+<div id="mainWrap" class="col-md-12">
+  <section class ="row wrap">
+    <h2 id="pageName">index</h2>
+    <section class="glider col-sm-3 col-md-2">
+      <h3><%= link_to "Blog", "/blog/" %></h3>
+      がんばって書きます……。
+    </section>
+    <section class="piet col-sm-3 col-md-2">
+      <h3><%= link_to "Piet", "/piet/" %></h3>
+      pietについていろいろ書きます。
+    </section>
+    <section class="glider col-sm-3 col-md-2">
+      <h3><%= link_to "About", "/about/" %></h3>
+      インターネット上の私
+    </section>
+    <section class="glider col-sm-3 col-md-2">
+      <h3><%= link_to "LifePNG", "/lifepng/" %></h3>
+      JavaScript でライフゲームしてそれを画像にできるやつ。
+    </section>
+    <section class="openyo col-sm-3 col-md-2">
+      <h3><%= link_to "OpenYo", "/OpenYo/" %></h3>
+      自由で拡張可能なYo クローン
+    </section>
+
   </section>
-  <section id="pkgbuild">
-    <span>PKGBUILD 的な物。書き方おかしかったら教えてください。</span>
+  <section id="pkgbuild" class="row wrap">
+    <div>PKGBUILD 的な物。書き方おかしかったら教えてください。</div>
     <ul>
       <li><a href="https://gist.github.com/nna774/8468487">Gyazo</a> -- using google-chrome-stable</li>
       <li><a href="https://gist.github.com/nna774/8781461">めんまフォント</a> -- <a href="http://www.anohana.jp/tv/special/font.html">めんまフォント</a>のインストーラ</li>

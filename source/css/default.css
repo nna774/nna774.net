@@ -23,7 +23,7 @@ body {
     color: black;
 }
 
-section {
+section.wrap {
     border-style: solid;
     border-width: 1px;
     border-color: black;
@@ -78,6 +78,6 @@ img {
   padding-right: 5px;
 }
 
-article {
+article, section {
     font-size: 16px;
 }

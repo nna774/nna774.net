@@ -35,16 +35,18 @@
 
   </head>
   
-  <body class="<%= page_classes %>">
-    <header>
-      <h1 id="itWorks"><a href="/">いっと☆わーくす！</a></h1>
-      <p id="scratch">
-        ;; This buffer is for notes you don't want to save, and for Lisp evaluation.<br />
-        ;; If you want to create a file, visit that file with C-x C-f,<br />
-        ;; then enter the text in that file's own buffer.
-      </p>
+  <body class="<%= page_classes %> container-fluid">
+    <header class="row">
+      <div class="col-md-12">
+        <h1 id="itWorks"><a href="/">いっと☆わーくす！</a></h1>
+        <p id="scratch">
+          ;; This buffer is for notes you don't want to save, and for Lisp evaluation.<br />
+          ;; If you want to create a file, visit that file with C-x C-f,<br />
+          ;; then enter the text in that file's own buffer.
+        </p>
+      </div>
     </header>
-    <main role="main">
+    <main role="main" class="row">
     <%= yield %>
     </main>
     <footer>
