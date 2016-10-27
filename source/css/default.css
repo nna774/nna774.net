@@ -62,6 +62,10 @@ img {
   max-width: 100%;
 }
 
+section.select {
+  background-color: #cfc;
+}
+
 /* ブログと共通 */
 #sideBar h2:before, .glider h3:before, dt:before { // 新デザイン移行完了の暁にはdt:beforeを消す。
   content: url("/img/glider20.png");
@@ -83,4 +87,9 @@ img {
 
 article, section {
     font-size: 16px;
+}
+
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
 }
