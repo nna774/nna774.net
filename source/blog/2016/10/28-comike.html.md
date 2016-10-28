@@ -3,6 +3,7 @@ directory_index: false
 title: サークル「いっと☆わーくす！」は、コミックマーケット91で「木曜日　西地区　"み"　27b」に配置されました！
 Date: 2016-10-28 20:48 JST
 tags: Piet, コミケ
+ogpImage: https://nna774.net/blog/2016/10/28/circle_cut.png
 ---
 
 ◎貴サークル「いっと☆わーくす！」は、木曜日　西地区“み”ブロック－27b に配置されました。
