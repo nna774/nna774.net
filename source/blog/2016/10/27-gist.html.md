@@ -35,6 +35,8 @@ Google Cloud PlatformのプリエンプティブルVM([このへん](http://goog
 * [saku.service](https://gist.github.com/nna774/2657df31f27dab3b8bb5)
 sshポートフォワードでトンネルを作ってくれるやつ。[autossh.serice](https://gist.github.com/nna774/1d5e8683440b4cdca86c9df837bd060a)のほうがいいのかも。
 
+* [emacs daemonの設定](https://wiki.archlinuxjp.org/index.php/Emacs#systemd_.E3.83.A6.E3.83.8B.E3.83.83.E3.83.88.E3.81.A8.E3.81.97.E3.81.A6) も便利なのでついでにここにメモっておきます。
+
 # その他
 
 * [com.rb](https://gist.github.com/nna774/ce0cfd761263cc52ceda05e62b0282b8)
