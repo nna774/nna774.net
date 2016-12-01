@@ -1,7 +1,7 @@
 ---
-Directory_index: false
+directory_index: false
 title: Drone.ioがつらい……。
-Date: 2016-12-01 18:09 JST
+date: 2016-12-01 18:09 JST
 tags: アドベントカレンダー
 ---
 
