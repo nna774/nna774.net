@@ -2,6 +2,5 @@ deployment:
   production:
     branch: master
     commands:
-      - sed -i -e "s/deploy.user          = 'nona'/deploy.user  = 'circleci'/" config.rb
-
+      - sed -i -e "s/deploy.user          = 'nona'/deploy.user = 'circleci'/" config.rb
       - rake deploy
