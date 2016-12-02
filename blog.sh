@@ -33,4 +33,4 @@ echo "---"  >> "${PATH}"
 
 echo "${PATH} created"
 
-/usr/bin/emacsclient "${PATH}"
+/usr/bin/emacsclient -nw -a "" "${PATH}"
