@@ -126,7 +126,7 @@ page "/blog/rss", layout: false
 page "/sitemap.xml", layout: false
 
 activate :deploy do |deploy|
-  deploy.build_before  = true
+  deploy.build_before  = false
   deploy.deploy_method = :rsync
   deploy.user          = 'nona'
   deploy.host          = 'sakura.nna774.net'
