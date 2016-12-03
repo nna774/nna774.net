@@ -7,7 +7,8 @@ tags: アドベントカレンダー
 
 [のなの12月日記 Advent Calendar 2016](http://www.adventar.org/calendars/1437)三日目雑な日記です。
 
-[PUB Karr](https://ja.foursquare.com/v/pub-karr/52a9caf7498eef35b4eb8d1a)でpastakさんと飲んでいます。
+[PUB Karr](https://ja.foursquare.com/v/pub-karr/52a9caf7498eef35b4eb8d1a)でpastakさんと飲んでいます。<br />
+![麻婆豆腐](/blog/2016/12/03/DSC00526.JPG)
 
 今日はKMCでLinux勉強会してたのを眺めて飲みにきて、これからNF打ちあげで飲みに行きます。NFぜんぜんやってないけど……。
 NFのシーズン、金沢とか東京にいたので。
