@@ -3,6 +3,7 @@ directory_index: false
 title: 三日目
 date: 2016-12-03 17:53 JST
 tags: アドベントカレンダー
+ogpImage: https://nna774.net/blog/2016/12/03/DSC00526.JPG
 ---
 
 [のなの12月日記 Advent Calendar 2016](http://www.adventar.org/calendars/1437)三日目雑な日記です。
