@@ -2,7 +2,7 @@
 directory_index: false
 title: HDL-GT
 date: 2016-11-30 22:38 JST
-tags: 
+tags: HDL-GT
 ---
 
 空っぽのHDL-GTを入手したので、それで遊ぶ。
