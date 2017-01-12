@@ -25,8 +25,8 @@ if [ -e "${PATH}" ]; then
 fi
 
 echo "---" > "${PATH}"
-echo "directory_index: false" >> "${PATH}"
 echo "title: ${TITLE}" >> "${PATH}"
+echo "directory_index: false" >> "${PATH}"
 echo "date: ${DATE}"  >> "${PATH}"
 echo "tags: "  >> "${PATH}"
 echo "---"  >> "${PATH}"
