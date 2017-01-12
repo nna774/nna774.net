@@ -34,7 +34,7 @@ tags: 日常, 旅行記
 一日目の目標の益田駅に到着する。
 
 実はまだ進む列車は出てはいるのだが(東荻行き最終列車)、
-こっちで泊まるほうが安全()かと思いここで止まる(どうせ次の日の始発は同じ列車(益田発山陰本線始発列車がそのまま東荻の始発列車となっている)だった　というのもある)。
+こっちで泊まるほうが安全(‪ホテルの予約とかをあらかじめしていく訳ではない旅行では、どこにも泊まれない 即ち 死なので(夏ならまだしも、冬は本当に死ぬ可能性すらあります)、如何に安全に泊まれるか は重要なファクターです‬)かと思いここで止まる(どうせ次の日の始発は同じ列車(益田発山陰本線始発列車がそのまま東荻の始発列車となっている)だった　というのもある)。
 
 駅前にGoogleストリートビューでビジネスホテルがあるのは知っていて、
 45分ぐらい歩けばネットカフェもある事は事前に調べていたから、
@@ -118,7 +118,7 @@ tags: 日常, 旅行記
 
 博多のカプセルホテルに泊まり二日目は終了。
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">県境です(跨いでるのは(奥のも)ぼくではありません)。 <a href="https://t.co/yoZDFSPRO5">pic.twitter.com/yoZDFSPRO5</a></p>&mdash; 久我山のな(のな なの)(友利のな) (@nonamea774) <a href="https://twitter.com/nonamea774/status/817610105290047488">2017年1月7日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">チェックアウト (@ ウェルキャビン中洲 in 福岡市, 福岡県) <a href="https://t.co/waTtftvx2R">https://t.co/waTtftvx2R</a></p>&mdash; 久我山のな(のな なの)(友利のな) (@nonamea774) <a href="https://twitter.com/nonamea774/status/817920983587753985">2017年1月8日</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # 続く
 
