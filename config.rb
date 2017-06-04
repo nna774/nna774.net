@@ -37,7 +37,7 @@ configure :build do
   activate :minify_javascript
   activate :minify_html, :remove_http_protocol => false, :remove_https_protocol => false
   activate :gzip
-  activate :asset_hash, :ignore => [/.*\.png/, /.*\.gif/]
+  activate :asset_hash, :ignore => [/.*\.png/, /.*\.gif/, /.*\.webp/]
 end
 
 
