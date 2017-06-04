@@ -98,9 +98,9 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "blog"
 
-  blog.permalink = "{year}/{month}/{day}/{title}"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  blog.sources = "{year}/{month}/{day}-{title}"
+  blog.sources = "{year}/{month}/{day}-{title}.html"
   blog.taglink = "tags/{tag}/index.html"
   ##### {tag}.html から {tag}/index.html に変更したので、nginxの設定で適切に301すること。
   blog.layout = "article_layout"
