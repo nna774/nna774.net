@@ -13,7 +13,7 @@ YAPC::Fukuokaに行ったのでそのブログです。
 テストをやっていく話とかは書いてなくても参考になったように思う。
 コンテナまわりの話は興味があったし、複数あっておもしろかったですね。
 
-徳丸先生のセッションはとてもおもしろかったし、気をつけていきましょう という感じだった。
+[徳丸先生のセッション](https://www.slideshare.net/ockeghem/yapcfukuoka2017hakata)はとてもおもしろかったし、気をつけていきましょう という感じだった。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">SELinux実はオンで使ったことがない。</p>&mdash; 久我山 なな (@nonamea774) <a href="https://twitter.com/nonamea774/status/880979852953755648">2017年7月1日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -23,7 +23,7 @@ YAPC::Fukuokaに行ったのでそのブログです。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">something wrong、ときどき雑に書いてしまう……。</p>&mdash; 久我山 なな (@nonamea774) <a href="https://twitter.com/nonamea774/status/880995046719225856">2017年7月1日</a></blockquote>
 
-適切なエラーメッセージを出しましょう という話。
+[適切なエラーメッセージを出しましょう という話](http://moznion.hatenadiary.com/entry/2017/07/01/152129)。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E9%A7%85%E3%83%A1%E3%83%A2?src=hash">#駅メモ</a> のオタクなのでこのカバン持って駅メモ旅行したい。  <a href="https://twitter.com/hashtag/yapcjapan?src=hash">#yapcjapan</a> <a href="https://t.co/NgHUiLfj1n">pic.twitter.com/NgHUiLfj1n</a></p>&mdash; 久我山 なな (@nonamea774) <a href="https://twitter.com/nonamea774/status/880999065030242304">2017年7月1日</a></blockquote>
 
