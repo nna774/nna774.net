@@ -16,7 +16,7 @@ tags: 東京紀行
 551とプレモルとカタイアイスを食べます。
 
 で、恵比須についてウィークリーマンションにチェックインして、
-散歩がてら中本の目黒店に言って、
+散歩がてら中本の目黒店に行って、
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">久しぶりに食べたらそんなに辛くなかった(ここの店がそんなに辛くないとか？)。 <a href="https://t.co/pjA2c1zbsl">pic.twitter.com/pjA2c1zbsl</a></p>&mdash; 久我山 なな (@nonamea774) <a href="https://twitter.com/nonamea774/status/894137797077999617">2017年8月6日</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
