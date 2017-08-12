@@ -1,5 +1,5 @@
 ---
-title: 東京一日目
+title: 東京紀行 1日目
 directory_index: false
 date: 2017-08-08 00:08 JST
 tags: 東京紀行
