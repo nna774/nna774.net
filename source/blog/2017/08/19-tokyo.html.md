@@ -71,7 +71,7 @@ tags: 東京紀行
 700いくらの指定券・グリーン券をケチったわけです(まぁ行きに乗ったしいいかな と)。
 
 奥多摩を出た後は寝てて、気付いたら立川だったので(青梅で対面乗り換えをしたような記憶がぼんやりとある)、
-中央特快に乗り換えて新宿、山手貨物線に乗り換えて恵比須まで帰ってきました。
+中央特快に乗り換えて新宿、山手貨物線に乗り換えて恵比寿まで帰ってきました。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">行きは南武線、帰りは中央本線。 <a href="https://t.co/DFjuKx9bns">pic.twitter.com/DFjuKx9bns</a></p>&mdash; 久我山 なな (@nonamea774) <a href="https://twitter.com/nonamea774/status/898871949996118016">2017年8月19日</a></blockquote>
 
