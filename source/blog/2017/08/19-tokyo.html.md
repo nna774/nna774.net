@@ -2,7 +2,7 @@
 title: 東京紀行 13日目
 directory_index: false
 date: 2017-08-19 20:52 JST
-tags: 東京紀行
+tags: 東京紀行, 旅行記
 ---
 
 昨日はなにもなかったし疲れてたので高速に寝てしまった。
