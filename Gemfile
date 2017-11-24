@@ -7,7 +7,7 @@ gem "middleman", '>=4.0.0'
 gem "middleman-livereload"
 
 gem "middleman-minify-html"
-gem "middleman-blog", '>=4.0.0'
+gem "middleman-blog", :git => 'https://github.com/middleman/middleman-blog', :ref => 'fec110fad6b6535f875ae4d1c6d3ab0f5866228f'
 gem "builder"
 gem "middleman-deploy", :git => 'https://github.com/nna774/middleman-deploy', :branch => "rsync-fix"
 
