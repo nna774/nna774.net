@@ -15,11 +15,11 @@
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="canonical" href="<%= base_url %><%= current_page.url %>"/>
     <% if not current_article.nil? %>
-      <% if current_article.previous_article %>
-        <link rel="prev" href="<%= current_article.previous_article.url %>" title="<%= current_article.previous_article.title %>">
+      <% if current_article.article_previous %>
+        <link rel="prev" href="<%= current_article.article_previous.url %>" title="<%= current_article.article_previous.title %>">
       <% end %>
-      <% if current_article.next_article %>
-        <link rel="next" href="<%= current_article.next_article.url %>" title="<%= current_article.next_article.title %>">
+      <% if current_article.article_next %>
+        <link rel="next" href="<%= current_article.article_next.url %>" title="<%= current_article.article_next.title %>">
       <% end %>
     <% end %>
 
