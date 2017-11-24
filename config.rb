@@ -79,12 +79,12 @@ page "/blog/feed.xml", layout: false
 page "/blog/rss", layout: false
 page "/sitemap.xml", layout: false
 
-activate :deploy do |deploy|
-  deploy.build_before  = false
-  deploy.deploy_method = :rsync
-  deploy.user          = 'nona'
-  deploy.host          = 'sakura.nna774.net'
-  deploy.path          = '/srv/http'
-  deploy.port          = "22"
-  deploy.flags         = '-avO --no-p --no-g --no-o --exclude=".git/"'
-end
+# activate :deploy do |deploy|
+#   deploy.build_before  = false
+#   deploy.deploy_method = :rsync
+#   deploy.user          = 'nona'
+#   deploy.host          = 'sakura.nna774.net'
+#   deploy.path          = '/srv/http'
+#   deploy.port          = "22"
+#   deploy.flags         = '-avO --no-p --no-g --no-o --exclude=".git/"'
+# end
