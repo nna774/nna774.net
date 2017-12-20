@@ -2,7 +2,8 @@
 title: 桜Trick🌸と静岡とか
 directory_index: false
 date: 2017-11-25 08:55 JST
-tags: 旅行記
+tags: 旅行記, きらら
+ogpImage: https://pbs.twimg.com/media/DPPSse0UIAAWM1H.jpg
 ---
 
 今年も
