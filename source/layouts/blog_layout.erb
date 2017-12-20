@@ -41,6 +41,9 @@
     <meta property="og:description" content="<%= CGI.escapeHTML(strip_tags current_article.body[0,140]) + '... - ' unless current_article.nil?  %>いっと☆わーくす！" />
     <% if current_article && current_article.data && current_article.data.ogpImage %>
       <meta property="og:image" content="<%= current_article.data.ogpImage %>" />
+      <% if current_article.data.ogpImageAlt %>
+        <meta property="og:image:alt" content="<%= current_article.data.ogpImageAlt %>" />
+      <% end %>
     <% else %>
       <meta property="og:image" content="<%= base_url %>/img/1012-ogp.png" />
     <% end %>
