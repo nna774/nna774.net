@@ -3,6 +3,7 @@ title: 飯田とかの旅行とか
 directory_index: false
 date: 2018-01-03 14:40 JST
 tags: 旅行記
+ogpImage: https://nna774.net/blog/2018/01/03/paranoma.jpg
 ---
 
 あけましておめでとうございます(？)。
