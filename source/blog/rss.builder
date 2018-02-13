@@ -7,7 +7,7 @@ xml.rss :version => "2.0" do
     xml.link "href" => URI.join(site_url, blog.options.prefix.to_s)
     xml.link "href" => base_url + "/blog/rss", "rel" => "self"
     xml.updated(blog.articles.first.date.to_time.iso8601) unless blog.articles.empty?
-    xml.author { xml.name "NoNameA 774" }
+    xml.author { xml.name "久我山菜々" }
 
     blog.articles[0..10].each do |article|
       xml.item do
