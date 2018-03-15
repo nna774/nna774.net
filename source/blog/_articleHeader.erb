@@ -1,12 +1,16 @@
 <header class="articleMeta">
-  <h1 class="articleTitle"><%= link_to current_article.title, current_article.url %></h1>
-  <time datetime="<%= current_article.date.strftime('%Y-%m-%dT%R%z') %>"><%= current_article.date.strftime('%Y/%m/%d %R') %></time>
+  <h1 class="articleTitle" itemprop="name">
+    <a href="<%= current_article.url %>" itemprop="url"><%= current_article.title %></a>
+  </h1>
+  <time datetime="<%= current_article.date.strftime('%Y-%m-%dT%R%z') %>" itemprop="datePublished">
+    <%= current_article.date.strftime('%Y/%m/%d %R') %>
+  </time>
   <a rel="author" href="/about/" >久我山菜々</a>
   <a href="<%= current_article.url %>">parmalink</a>
   <% if not current_article.tags.empty? %>
     <span class="tags"> Tags:
       <% current_article.tags.each_with_index do |tag, i| %>
-        <a href="<%= tag_path(tag) %>" rel="tag"><%= tag %></a>
+        <a href="<%= tag_path(tag) %>" rel="tag" itemprop="keywords"><%= tag %></a>
       <% end %>
     </span>
   <% end %>
@@ -18,4 +22,3 @@
     </span>
   <% end %>
 </header>
-

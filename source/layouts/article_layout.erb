@@ -1,8 +1,8 @@
 <% wrap_layout :blog_layout do %>
 <%= partial("blog/articleChain") %>
-<article title="<%= current_article.title %>">
+<article title="<%= current_article.title %>" itemscope itemtype="http://schema.org/BlogPosting">
   <%= partial("blog/articleHeader", :locals => { :current_article => current_article, :isIndex => false }) %>
-  <div class="articleBody">
+  <div class="articleBody" itemprop="articleBody">
     <%= yield %>
   </div>
   <%= partial("blog/articleFooter", :locals => { :current_article => current_article }) %>
