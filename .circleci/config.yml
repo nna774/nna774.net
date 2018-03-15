@@ -5,8 +5,18 @@ jobs:
       - image: circleci/ruby:2.4.3-node
     steps:
       - checkout
-      - run: bundle install
+      - restore_cache:
+          name: Restoring Cache - Bundler
+          keys:
+            - gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
+            - gems-{{ .Environment.COMMON_CACHE_KEY }}-
+      - run: bundle install --path=vendor/bundle
       - run: bundle exec rake build
+      - save_cache:
+          name: Saving Cache - Bundler
+          key: gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
+          paths:
+            - "/usr/src/app/vendor/bundle"
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
