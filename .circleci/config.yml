@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.4.3-node
+      - image: nna774/ruby:2.4.3-node-with-rsync
     steps:
       - checkout
       - run: ruby -v
