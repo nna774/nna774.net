@@ -17,7 +17,7 @@ jobs:
           name: Saving Cache - Bundler
           key: gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
           paths:
-            - "/usr/src/app/vendor/bundle"
+            - "vendor/bundle"
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
