@@ -18,6 +18,7 @@ jobs:
           key: gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
           paths:
             - "vendor/bundle"
+      - run: echo "|1|4JQqHDZJVuU3DkRIhiAUcNdIMAc=|OiIZfr7NGN2aXUINmWBICq65Dbs= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDq/akxyvBB6JrS+eTmZja1R/U41Pn30FgZbsQ3UBKLxWNU3WAUxJKZL4ZDDt7TB8XTP2PWFeTZGvbjYR3MOBms=" | tee -a ~/.ssh/known_hosts
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
