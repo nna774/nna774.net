@@ -5,6 +5,7 @@ jobs:
       - image: circleci/ruby:2.4.3-node
     steps:
       - checkout
+      - run: ruby -v
       - restore_cache:
           name: Restoring Cache - Bundler
           keys:
