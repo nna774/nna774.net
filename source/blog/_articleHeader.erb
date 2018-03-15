@@ -5,7 +5,7 @@
   <time datetime="<%= current_article.date.strftime('%Y-%m-%dT%R%z') %>" itemprop="datePublished">
     <%= current_article.date.strftime('%Y/%m/%d %R') %>
   </time>
-  <a rel="author" href="/about/" itemprop="author">久我山菜々</a>
+  <span itemprop=author itemscope itemtype="http://schema.org/Person"><a rel=author href="/about/" itemprop=url><span itemprop=name>久我山菜々</span></a></span>
   <a href="<%= current_article.url %>">parmalink</a>
   <% if not current_article.tags.empty? %>
     <span class="tags"> Tags:
