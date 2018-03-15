@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.4.3-node
+    steps:
+      - checkout
+      - run: bundle install
+      - run: bundle exec rake build
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              sed -i -e "s/deploy.user          = 'nona'/deploy.user = 'circleci'/" config.rb
+              bundle exec rake deploy
+            fi
