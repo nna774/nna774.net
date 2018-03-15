@@ -6,6 +6,9 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="canonical" href="<%= base_url %><%= current_page.url %>"/>
+    <% if current_page.data.amp %>
+      <link rel="amphtml" href="<%= base_url %>/amp<%= current_page.url %>">
+    <% end %>
 
     <%= partial "css/default" %>
     <%= partial "customs" %>

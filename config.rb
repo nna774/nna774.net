@@ -88,3 +88,34 @@ activate :deploy do |deploy|
   deploy.port          = "22"
   deploy.flags         = '-avO --no-p --no-g --no-o --exclude=".git/"'
 end
+
+# amp
+def remove_ext(path)
+  path.gsub(/\.html$/, '')
+end
+def remove_frontmatter(body)
+  body.gsub(/^---\n.*?---\n+/m, '')
+end
+
+ready do
+  # normal page
+  sitemap.resources.select { |r| r.data[:amp] }.each do |r|
+    proxy "amp/#{r.path}", 'amp.html',
+          locals: {
+            body: remove_frontmatter(r.file_descriptor.read),
+            title: r.data.title || "いっと☆わーくす！",
+            path: r.url,
+          },
+          ignore: true,
+          layout: false,
+          directory_index: false
+  end
+  # blog
+  sitemap.resources.select {|r| r.kind_of?(::Middleman::Blog::BlogArticle) }.each do |r|
+    # proxy "amp/#{r.path}", 'blog/amp.html',
+    #       locals: { :body => r.body },
+    #       ignore: true,
+    #       layout: false,
+    #       directory_index: false
+  end
+end
