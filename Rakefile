@@ -5,7 +5,7 @@ task "assets:precompile" => [:build]
 
 desc "build by using middleman"
 task :build do
-  sh "bundle exec middleman build"
+  sh "NO_CONTRACTS=true bundle exec middleman build"
 end
 
 desc "deploy by using middleman"
