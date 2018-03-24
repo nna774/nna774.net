@@ -11,25 +11,25 @@ if [ -z "${TITLE}" ]; then
     TITLE="advent"
 fi
 
-NAME="${DAY}-${TITLE}.html.md"
+NAME="${TITLE}.html.md"
 DATE="${YEAR}-${MONTH}-${DAY} ${TIME} ${ZONE}"
-DIR="source/blog/${YEAR}/${MONTH}"
+DIR="source/blog/${YEAR}/${MONTH}/${DAY}"
 
 mkdir -p "${DIR}"
 
-PATH="${DIR}/${NAME}"
-if [ -e "${PATH}" ]; then
+ARTICLE_PATH="${DIR}/${NAME}"
+if [ -e "${ARTICLE_PATH}" ]; then
     echo already exist!
     exit 255
 fi
 
-echo "---" > "${PATH}"
-echo "title: ${TITLE}" >> "${PATH}"
-echo "directory_index: false" >> "${PATH}"
-echo "date: ${DATE}"  >> "${PATH}"
-echo "tags: "  >> "${PATH}"
-echo "---"  >> "${PATH}"
+echo "---" > "${ARTICLE_PATH}"
+echo "title: ${TITLE}" >> "${ARTICLE_PATH}"
+echo "directory_index: false" >> "${ARTICLE_PATH}"
+echo "date: ${DATE}"  >> "${ARTICLE_PATH}"
+echo "tags: "  >> "${ARTICLE_PATH}"
+echo "---"  >> "${ARTICLE_PATH}"
 
-echo "${PATH} created"
+echo "${ARTICLE_PATH} created"
 
-/usr/bin/emacsclient -nw -a "" "${PATH}"
+emacsclient -nw -a "" "${ARTICLE_PATH}"

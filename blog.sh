@@ -12,9 +12,9 @@ if [ -z "${TITLE}" ]; then
     exit 255
 fi
 
-NAME="${DAY}-${TITLE}.html.md"
+NAME="${TITLE}.html.md"
 DATE="${YEAR}-${MONTH}-${DAY} ${TIME} ${ZONE}"
-DIR="source/blog/${YEAR}/${MONTH}"
+DIR="source/blog/${YEAR}/${MONTH}/${DAY}"
 
 mkdir -p "${DIR}"
 
