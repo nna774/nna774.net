@@ -54,7 +54,7 @@ activate :blog do |blog|
 
   blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
-  blog.sources = "{year}/{month}/{day}-{title}.html"
+  blog.sources = "{year}/{month}/{day}/{title}.html"
   blog.taglink = "tags/{tag}/index.html"
   ##### {tag}.html から {tag}/index.html に変更したので、nginxの設定で適切に301すること。
   blog.layout = "article_layout"
