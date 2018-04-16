@@ -98,24 +98,29 @@ def remove_frontmatter(body)
 end
 
 ready do
-  # normal page
   sitemap.resources.select { |r| r.data[:amp] }.each do |r|
-    proxy "amp/#{r.path}", 'amp.html',
-          locals: {
-            body: remove_frontmatter(r.file_descriptor.read),
-            title: r.data.title || "いっと☆わーくす！",
-            path: r.url,
-          },
-          ignore: true,
-          layout: false,
-          directory_index: false
-  end
-  # blog
-  sitemap.resources.select {|r| r.kind_of?(::Middleman::Blog::BlogArticle) }.each do |r|
-    # proxy "amp/#{r.path}", 'blog/amp.html',
-    #       locals: { :body => r.body },
-    #       ignore: true,
-    #       layout: false,
-    #       directory_index: false
+    if r.kind_of?(::Middleman::Blog::BlogArticle)
+      # blog
+      proxy "amp/#{r.path}", 'blog/amp.html',
+            locals: {
+              body: r.body,
+              meta: r.data,
+              path: r.url,
+            },
+            ignore: true,
+            layout: false,
+            directory_index: false
+    else
+      # normal page
+      proxy "amp/#{r.path}", 'amp.html',
+            locals: {
+              body: remove_frontmatter(r.file_descriptor.read),
+              title: r.data.title || "いっと☆わーくす！",
+              path: r.url,
+            },
+            ignore: true,
+            layout: false,
+            directory_index: false
+    end
   end
 end
