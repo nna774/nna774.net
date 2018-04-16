@@ -28,6 +28,7 @@ echo "title: ${TITLE}" >> "${ARTICLE_PATH}"
 echo "directory_index: false" >> "${ARTICLE_PATH}"
 echo "date: ${DATE}"  >> "${ARTICLE_PATH}"
 echo "tags: "  >> "${ARTICLE_PATH}"
+echo "hasTweet: true"  >> "${ARTICLE_PATH}"
 echo "---"  >> "${ARTICLE_PATH}"
 
 echo "${ARTICLE_PATH} created"

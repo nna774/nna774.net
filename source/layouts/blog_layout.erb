@@ -49,6 +49,11 @@
     <% end %>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
+    <% if current_article&.data&.hasTweet %>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <% end %>
+
+
     <%= partial "analytics" %>
   </head>
   
