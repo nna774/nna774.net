@@ -20,6 +20,9 @@ ignored: true
         background: #cfc;
       }
     </style>
+    <% if meta.hasTweet %>
+      <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+    <% end %>
   </head>
   <body>
     <%= body %>
