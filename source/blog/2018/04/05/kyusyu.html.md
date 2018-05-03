@@ -2,7 +2,7 @@
 title: 九州旅行編
 directory_index: false
 date: 2018-04-05 04:39 JST
-tags: 旅行記 まいてつ
+tags: 旅行記, まいてつ
 ---
 
 [沖縄旅行編](/blog/2018/03/24/okinawa.html)の続編です。
