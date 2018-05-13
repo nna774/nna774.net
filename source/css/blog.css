@@ -7,15 +7,11 @@
     padding: 10px;
 }
 
-#pBar{
+#onepoint:after {
+    content: '[##--------] 28%';
     font-weight: bolder;
     margin: 10px;
-}
-
-#1poinst {
-    font-size: large;
-    font-weight: bolder;
-    margin: 10px;
+    display: block;
 }
 
 #headerMenu {
