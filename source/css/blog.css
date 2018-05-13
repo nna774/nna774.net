@@ -1,96 +1,39 @@
-/* body{
- *      text-align: center;
- * } */
-
-/* body > header a:link, body > header a:visited {
- *     color:blue;
- * } */
-
 .center {
     text-align: center;
 }
 
-/* #wrap {
- *     width:98%;
- *     clear: both;
- *     margin-left: auto;
- *     margin-right: auto;
- *     text-align: left;
- *     overflow: auto;
- *     word-wrap:break-word;
- * }
- * 
- * 
- *   main {
- *       width: 99%;
- *       float: right;
- *       margin-left: -200px;
- *   }
- *   main > *{
- *       margin-left: 210px;
- *   } */
-  #img {
-      /* width: 180px;
-       * float: right; */
-      margin-top: 0.67em;
-      padding: 10px;
-/* padding-bottom: 10px;
- * padding-left: 10px; */
-/* margin-bottom: auto;
- * padding-left: 3px ; */
-      /* padding-left: 10px; */
-    /* background-color: #6f6; */
-  }
-  /* #banner {
-   *     width: 100%;
-   *     float: right;
-   *     margin-left: -200px;
-   *     /\* background-color: #6f6; *\/
-   *     /\* padding-top: 10px; *\/
-   *     padding-bottom: 10px;
-   * } */
+#img {
+    margin-top: 0.67em;
+    padding: 10px;
+}
 
-  /* .bannerWrap {
-   *     padding-left: 150px;
-   * }
-  * 
-   * #banner > h1{
-   *     margin-top: 10px;
-   * } */
-  /* #sideBar {
-   *     width: 200px;
-   *     float: right;
-   * } */
-  #pBar{
-      font-weight: bolder;
-      margin: 10px;
-  }
-  #1poinst {
-      font-size: large;
-      font-weight: bolder;
-      margin: 10px;
-  }
-  #headerMenu {
-      margin: 20px;
-      font-size: large;
-      font-weight: bolder;
-      word-spacing: 10px;
-  }
-  #jumpToSide {
-      font-size: large;
-      font-weight: bolder;
-      word-spacing: 10px;
-  }
-/* footer{
- *     border-style: none;
- *     clear: both;
- *     text-align: left;
- * } */
+#pBar{
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#1poinst {
+    font-size: large;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#headerMenu {
+    margin: 20px;
+    font-size: large;
+    font-weight: bolder;
+    word-spacing: 10px;
+}
+
+#jumpToSide {
+    font-size: large;
+    font-weight: bolder;
+    word-spacing: 10px;
+}
 
 article {
     background-color: #afa;
 
-    /* border-bottom: 1px; */
     border-color: gray;
     border-style: outset;
 
@@ -117,19 +60,7 @@ article {
     text-align: center;
 }
 
-/* pre code{
- *     background-color: #F5FFFA;
- * 
- *     font-size: large;
- * 
- *     border-style: outset;
- *     border-color: black;
- *     margin: 10px;
- *     padding: 10px;
- * } */
-
 pre {
-    /* display: inline-block; */
     background-color: #F5FFFA;
     border-style: outset;
     border-color: black;
@@ -148,10 +79,8 @@ pre {
 
 #head {
     width: 100%;
-    /* float: right; */
     margin-left: auto;
     margin-right: auto;
-    /* text-align: center; */
     background-color: #7f7;
     overflow: auto;
 }
