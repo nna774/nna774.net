@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja" prefix="og: http://ogp.me/ns#">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title><%= current_article.title + ' - ' unless current_article.nil?  %>/dev/nona (いっと☆わーくす！)</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "/dev/nona's Atom Feed" %>
     <%= partial "css/default" %>
@@ -11,8 +11,6 @@
 
     <%= partial "customs" %>
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
-    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="canonical" href="<%= base_url %><%= current_page.url %>"/>
     <% if not current_article.nil? %>
       <% if current_article.article_previous %>
@@ -177,6 +175,6 @@
       <%= partial "adsense" %>
     </section>
   </footer>
-  <img src="https://nna774.net/hstspng.png" alt="" style="display:none;">
+  <img src="https://nna774.net/hstspng.png" alt="" style="display:none;" />
   </body>
 </html>

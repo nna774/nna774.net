@@ -1,10 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja" prefix="og: http://ogp.me/ns#">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title><%= current_page.data.title || "いっと☆わーくす！" %></title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
-    <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="canonical" href="<%= base_url %><%= current_page.url %>"/>
     <% if current_page.data.amp %>
       <link rel="amphtml" href="<%= base_url %>/amp<%= current_page.url %>">
@@ -55,6 +53,6 @@
 	<%= partial "adsense" %>
       </section>
     </footer>
-    <img src="https://nna774.net/hstspng.png" alt="" style="display:none;">
+    <img src="https://nna774.net/hstspng.png" alt="" style="display:none;" />
   </body>
 </html>
