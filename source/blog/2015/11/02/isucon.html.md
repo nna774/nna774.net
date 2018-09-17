@@ -2,7 +2,7 @@
 directory_index: false
 title: "#isucon に出てFailしてきました。"
 date: 2015-11-02 19:50 JST
-tags: Togetter
+tags: Togetter, ISUCON
 ---
 
 気がついたら予選について何も書かないまま本戦を迎えてしまった。
