@@ -1,7 +1,6 @@
 # nna774.net
 
 [![CircleCI](https://circleci.com/gh/nna774/nna774.net/tree/master.svg?style=svg)](https://circleci.com/gh/nna774/nna774.net/tree/master)
-[![Dependency Status](https://gemnasium.com/nna774/nna774.net.svg)](https://gemnasium.com/nna774/nna774.net)
 
 middleman で管理されたnna774.net です。
 以下のようなURL で見ることができます。
