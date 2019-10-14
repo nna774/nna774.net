@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: nna774/ruby:2.4.3-node-with-rsync
+      - image: ruby:2.6-buster
     steps:
       - checkout
       - run: ruby -v
@@ -18,10 +18,22 @@ jobs:
           key: gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
           paths:
             - "vendor/bundle"
-      - run: echo "|1|4JQqHDZJVuU3DkRIhiAUcNdIMAc=|OiIZfr7NGN2aXUINmWBICq65Dbs= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDq/akxyvBB6JrS+eTmZja1R/U41Pn30FgZbsQ3UBKLxWNU3WAUxJKZL4ZDDt7TB8XTP2PWFeTZGvbjYR3MOBms=" | tee -a ~/.ssh/known_hosts
+  deploy:
+    docker:
+      - image: ruby:2.6-buster
+    steps:
+      - run:
+        name: deploy to S3
+        command: aws s3 sync build s3://nna774.net --delete
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
       - deploy:
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              sed -i -e "s/deploy.user          = 'nona'/deploy.user = 'circleci'/" config.rb
-              bundle exec rake deploy
-            fi
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
