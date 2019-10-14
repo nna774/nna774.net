@@ -24,11 +24,16 @@ jobs:
           key: gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
           paths:
             - "vendor/bundle"
+      - persist_to_workspace:
+          root: ~/workdir
+          paths:
+            - build/*
   deploy:
     executor: default
     working_directory: ~/workdir
     steps:
-      - checkout
+      - attach_workspace:
+          at: ~/workdir
       - run: echo "export PATH='$PATH:~/bin'" >> $BASH_ENV
       - aws-s3/sync:
           from: build
