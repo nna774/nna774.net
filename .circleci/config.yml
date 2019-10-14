@@ -1,8 +1,11 @@
 version: 2.1
+executors:
+  default:
+      docker:
+        - image: ruby:2.6-buster
 jobs:
   build:
-    docker:
-      - image: ruby:2.6-buster
+    executor: default
     working_directory: ~/workdir
     steps:
       - checkout
@@ -22,15 +25,13 @@ jobs:
           paths:
             - "vendor/bundle"
   deploy:
-    docker:
-      - image: ruby:2.6-buster
+    executor: default
     working_directory: ~/workdir
     steps:
       - run: echo "export PATH='$PATH:~/bin'" >> $BASH_ENV
       - aws-s3/sync:
           from: build
           to: s3://nna774.net
-          arguments: --delete
           overwrite: true
 
 orbs:
