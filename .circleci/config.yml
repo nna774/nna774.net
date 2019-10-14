@@ -5,6 +5,8 @@ jobs:
       - image: ruby:2.6-buster
     steps:
       - checkout
+      - run: apt update
+      - run: apt install -y nodejs
       - run: ruby -v
       - restore_cache:
           name: Restoring Cache - Bundler
