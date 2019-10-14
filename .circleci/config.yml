@@ -25,8 +25,8 @@ jobs:
       - image: ruby:2.6-buster
     steps:
       - run:
-        name: deploy to S3
-        command: aws s3 sync build s3://nna774.net --delete
+          name: deploy to S3
+          command: aws s3 sync build s3://nna774.net --delete
 
 workflows:
   version: 2
