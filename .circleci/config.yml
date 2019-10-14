@@ -26,7 +26,7 @@ jobs:
     steps:
       - run: echo "export PATH='$PATH:~/bin'" >> $BASH_ENV
       - aws-s3/sync:
-          from: build
+          from: "${CIRCLE_WORKING_DIRECTORY}/build"
           to: s3://nna774.net
           arguments: --delete
           overwrite: true
