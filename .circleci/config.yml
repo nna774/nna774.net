@@ -28,6 +28,7 @@ jobs:
     executor: default
     working_directory: ~/workdir
     steps:
+      - checkout
       - run: echo "export PATH='$PATH:~/bin'" >> $BASH_ENV
       - aws-s3/sync:
           from: build
