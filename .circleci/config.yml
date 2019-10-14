@@ -24,6 +24,7 @@ jobs:
     docker:
       - image: ruby:2.6-buster
     steps:
+      - run: echo "export PATH='$PATH:~/bin'" >> $BASH_ENV
       - aws-s3/sync:
           from: build
           to: s3://nna774.net
