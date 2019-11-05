@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.4.3
+  - 2.6.5
 install:
   - time bundle install --without production --deployment --jobs=4
 script:
