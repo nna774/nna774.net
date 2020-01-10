@@ -81,11 +81,6 @@
     <div id="wrap" class="row">
       <main role="main" class="col-lg-10 col-lg-push-2 col-md-9 col-md-push-3">
         <%= yield %>
-	<% if current_page.url != "/blog/" %>
-          <div id="mainAd">
-	    <%= partial "adsense" %>
-          </div>
-	<% end %>
       </main>
     
       <nav id="sideBar" class="col-lg-2 col-lg-pull-10 col-md-3 col-md-pull-9">
@@ -156,13 +151,6 @@
               <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="/img/cc-by-sa_88x31.png" width="88" height="31" /></a><br />And, this work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a> or <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a>.
             </p>
           </div>
-
-	  <% if current_page.url == "/blog/" %>
-          <div id="sideAd" class="col-md-12 col-sm-4 col-xs-6">
-            <h2>広告</h2>
-	    <%= partial "adsense" %>
-          </div>
-	  <% end %>
         </div>
       </nav>
     </div>
@@ -171,9 +159,6 @@
     <%= partial "address" %>
     <%= partial "hostOn" %>
     <%= partial "pageDetail" %>
-    <section class="adsense">
-      <%= partial "adsense" %>
-    </section>
   </footer>
   <img src="https://nna774.net/hstspng.png" alt="" style="display:none;" />
   </body>
