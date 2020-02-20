@@ -20,7 +20,7 @@ jobs:
       - run: gem i bundler
       - run: bundle config set without 'development'
       - run: bundle install --path=vendor/bundle
-      - run: bundle exec rake build
+      - run: bundle exec middleman build --verbose
       - save_cache:
           name: Saving Cache - Bundler
           key: gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
