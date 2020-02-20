@@ -9,8 +9,3 @@ gem "middleman-deploy", :git => 'https://github.com/middleman-contrib/middleman-
 gem "builder"
 
 gem "rake"
-
-group :development do
-  gem 'pry'
-  gem 'pry-doc'
-end
