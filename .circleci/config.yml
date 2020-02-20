@@ -17,6 +17,7 @@ jobs:
           keys:
             - gems-{{ .Environment.COMMON_CACHE_KEY }}-{{ checksum "Gemfile.lock" }}
             - gems-{{ .Environment.COMMON_CACHE_KEY }}-
+      - run: bundle update --bundler
       - run: bundle install --path=vendor/bundle --without development
       - run: bundle exec rake build
       - save_cache:
