@@ -2,7 +2,7 @@ version: 2.1
 executors:
   default:
       docker:
-        - image: ruby:2.6-buster
+        - image: ruby:2.7-buster
 jobs:
   build:
     executor: default
