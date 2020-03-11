@@ -1,55 +1,55 @@
 <!DOCTYPE html>
-<html lang="ja" prefix="og: http://ogp.me/ns#">
+<html lang='ja' prefix='og: http://ogp.me/ns#'>
   <head>
-    <meta charset="UTF-8">
-    <title><%= current_page.data.title || "いっと☆わーくす！" %></title>
-    <link rel="canonical" href="<%= base_url %><%= current_page.url %>"/>
+    <meta charset='UTF-8'>
+    <title><%= current_page.data.title || 'いっと☆わーくす！' %></title>
+    <link rel='canonical' href='<%= base_url %><%= current_page.url %>'/>
     <% if current_page.data.amp %>
-      <link rel="amphtml" href="<%= base_url %>/amp<%= current_page.url %>">
+      <link rel='amphtml' href='<%= base_url %>/amp<%= current_page.url %>'>
     <% end %>
 
-    <%= partial "css/default" %>
-    <%= partial "customs" %>
+    <%= partial 'css/default' %>
+    <%= partial 'customs' %>
 
-    <meta name="author" content="久我山菜々">
-    <meta name="copyright" content="久我山菜々 (nonamea774@nnn77) <nonamea774@gmail.com>">
-    <meta name="description" content="<%= current_page.data.ogpDescription || ";; This buffer is for notes you don't want to save, and for Lisp evaluation. ;; If you want to create a file, visit that file with C-x C-f, ;; then enter the text in that file's own buffer." %>" />
-    <% if current_page.url == "/" || current_page.data.ogpType == "website" %>
-      <meta property="og:type" content="website" />
+    <meta name='author' content='久我山菜々'>
+    <meta name='copyright' content='久我山菜々 (nonamea774@nnn77) <nonamea774@gmail.com>'>
+    <meta name='description' content='<%= current_page.data.ogpDescription || ';; This buffer is for notes you don't want to save, and for Lisp evaluation. ;; If you want to create a file, visit that file with C-x C-f, ;; then enter the text in that file's own buffer.' %>' />
+    <% if current_page.url == '/' || current_page.data.ogpType == 'website' %>
+      <meta property='og:type' content='website' />
     <% else %>
-      <meta property="og:type" content="article" />
+      <meta property='og:type' content='article' />
     <% end %>
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="<%= current_page.data.twitterSite || "@nonamea774" %>">
-    <meta name="twitter:url" content="<%= base_url %><%= current_page.url %>">
-    <meta name="twitter:domain" content="nna774.net">
-    <meta name="twitter:creator" content="@nonamea774">
-    <meta name="twitter:title" content="<%= current_page.data.title || "いっと☆わーくす！" %>" />
+    <meta name='twitter:card' content='summary'>
+    <meta name='twitter:site' content='<%= current_page.data.twitterSite || '@nonamea774' %>'>
+    <meta name='twitter:url' content='<%= base_url %><%= current_page.url %>'>
+    <meta name='twitter:domain' content='nna774.net'>
+    <meta name='twitter:creator' content='@nonamea774'>
+    <meta name='twitter:title' content='<%= current_page.data.title || 'いっと☆わーくす！' %>' />
 
-    <meta property="og:title" content="<%= current_page.data.title || "いっと☆わーくす！" %>" />
-    <meta property="og:url" content="<%= base_url %><%= current_page.url %>" />
-    <meta property="og:image" content="<%= current_page.data.ogpImage || base_url + "/img/1012-ogp.png" %>" />
-    <meta property="og:description" content="<%= current_page.data.ogpDescription || ";; This buffer is for notes you don't want to save, and for Lisp evaluation. ;; If you want to create a file, visit that file with C-x C-f, ;; then enter the text in that file's own buffer." %>" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta property='og:title' content='<%= current_page.data.title || 'いっと☆わーくす！' %>' />
+    <meta property='og:url' content='<%= base_url %><%= current_page.url %>' />
+    <meta property='og:image' content='<%= current_page.data.ogpImage || base_url + '/img/1012-ogp.png' %>' />
+    <meta property='og:description' content='<%= current_page.data.ogpDescription || ';; This buffer is for notes you don't want to save, and for Lisp evaluation. ;; If you want to create a file, visit that file with C-x C-f, ;; then enter the text in that file's own buffer.' %>' />
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
  
-    <%= partial "analytics" %>
+    <%= partial 'analytics' %>
 
   </head>
   
-  <body class="<%= page_classes %> container-fluid">
-    <header class="row">
-      <div class="col-md-12">
-        <h1 id="itWorks"><a href="/">いっと☆わーくす！</a></h1>
+  <body class='<%= page_classes %> container-fluid'>
+    <header class='row'>
+      <div class='col-md-12'>
+        <h1 id='itWorks'><a href='/'>いっと☆わーくす！</a></h1>
       </div>
     </header>
-    <main role="main" class="row">
+    <main role='main' class='row'>
     <%= yield %>
     </main>
     <footer>
-      <%= partial "address" %>
-      <%= partial "hostOn" %>
-      <%= partial "pageDetail" %>
+      <%= partial 'address' %>
+      <%= partial 'hostOn' %>
+      <%= partial 'pageDetail' %>
     </footer>
-    <img src="https://nna774.net/hstspng.png" alt="" style="display:none;" />
+    <img src='https://nna774.net/hstspng.png' alt='' style='display:none;' />
   </body>
 </html>
