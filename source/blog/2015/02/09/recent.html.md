@@ -116,7 +116,7 @@ td-agent.confはこんな感じ。
 
 [ここ](https://wiki.archlinux.org/index.php/Google_Authenticator_(%E6%97%A5%E6%9C%AC%E8%AA%9E))とかを参考に適当に設定。
 
-[前から設定方法だけは知ってた](http://www.kmc.gr.jp/advent-calendar/ssh/2013/12/16/googleAuthenticator.html)(一年前の自分の文章読むのつらすぎる)けど、実際に使ってはいなかった。
+[前から設定方法だけは知ってた](https://www.kmc.gr.jp/advent-calendar/ssh/2013/12/16/googleAuthenticator.html)(一年前の自分の文章読むのつらすぎる)けど、実際に使ってはいなかった。
 
 意外と鍵が無い時がけっこうあるので、そういう時に便利そう。
 

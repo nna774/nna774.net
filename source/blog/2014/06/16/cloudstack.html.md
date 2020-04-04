@@ -16,7 +16,7 @@ KMC のOB 会で[http://kmc-jp.github.io/nona7-ob-slide/](http://kmc-jp.github.i
 CloudStack はWeb からぽちぽちと設定したらいい感じにできたので楽でした.
 
 KMC は学年, 所属にかかわらず入会することができます.
-詳しくは[こちら](http://www.kmc.gr.jp/guidance/).
+詳しくは[こちら](https://www.kmc.gr.jp/guidance/).
 
 <small>
     KMC はマシンをくださる企業も募集しております.

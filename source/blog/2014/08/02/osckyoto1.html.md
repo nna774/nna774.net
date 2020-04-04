@@ -32,7 +32,7 @@ KMCには入部制限はありません。年齢や学歴、人種、宗教、�
 </p>
 
 <p>
-<a href="http://www.kmc.gr.jp/guidance/">入部案内 — 京大マイコンクラブ(KMC)</a>
+<a href="https://www.kmc.gr.jp/guidance/">入部案内 — 京大マイコンクラブ(KMC)</a>
 </p>
 
 <p>
