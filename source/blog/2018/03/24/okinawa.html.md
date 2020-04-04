@@ -72,7 +72,7 @@ tags: 旅行記
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これDPZで見た！！！！ (@ のうれんプラザ in 那覇市, 沖縄県) <a href="https://t.co/lnV4KdMIna">https://t.co/lnV4KdMIna</a></p>&mdash; 久我山 菜々(くがやま なな) (@nonamea774) <a href="https://twitter.com/nonamea774/status/969076708224720896?ref_src=twsrc%5Etfw">2018年3月1日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-歩いてたら[DPZで読んだことのある建物](http://portal.nifty.com/kiji/171208201418_1.htm)が登場してびっくりした。
+歩いてたら[DPZで読んだことのある建物](https://dailyportalz.jp/kiji/171208201418)が登場してびっくりした。
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">これは泡盛の入ったソフトクリームです。 <a href="https://t.co/fi5kMV0b56">pic.twitter.com/fi5kMV0b56</a></p>&mdash; 久我山 菜々(くがやま なな) (@nonamea774) <a href="https://twitter.com/nonamea774/status/969081964018872321?ref_src=twsrc%5Etfw">2018年3月1日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
