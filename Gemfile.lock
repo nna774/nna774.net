@@ -1,14 +1,4 @@
 GIT
-  remote: https://github.com/middleman-contrib/middleman-deploy
-  revision: 4d04b550b4c6888265d83ee9689f41e29dbae535
-  ref: 4d04b550b4c6888265d83ee9689f41e29dbae535
-  specs:
-    middleman-deploy (2.0.0.pre.alpha)
-      middleman-core (>= 3.2)
-      net-sftp
-      ptools
-
-GIT
   remote: https://github.com/middleman/middleman-blog
   revision: fec110fad6b6535f875ae4d1c6d3ab0f5866228f
   ref: fec110fad6b6535f875ae4d1c6d3ab0f5866228f
