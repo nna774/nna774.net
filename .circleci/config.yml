@@ -19,7 +19,8 @@ jobs:
             - gems-{{ .Environment.COMMON_CACHE_KEY }}-
       - run: gem i bundler
       - run: bundle config set without 'development'
-      - run: bundle install --path=vendor/bundle
+      - run: bundle config set --local path 'vendor/bundle'
+      - run: bundle install
       - run: bundle exec middleman build --verbose
       - save_cache:
           name: Saving Cache - Bundler
