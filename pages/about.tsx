@@ -7,7 +7,7 @@ type Props = InferGetStaticPropsType<typeof getStaticProps>;
 const About: NextPage<Props> = () => {
   return (
     <div>
-      <MyHead title="About" />
+      <MyHead title='About' />
     </div>
   );
 };
