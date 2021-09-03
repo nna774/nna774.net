@@ -33,12 +33,12 @@ const sections: ReadonlyArray<Section> = [
     name: 'Projects',
     to: '/projects/',
     desc: '最近更新していないもの(最近更新しているもののほうが少ない)',
-  }
+  },
 ];
 function renderSection(section: Section): JSX.Element {
   const fs = section.faviconStyle || style.defaultFavicon;
   return (
-    <section key={section.name} className={style.section} >
+    <section key={section.name} className={style.section}>
       <div className={fs}>
         <a href={section.to}>{section.name}</a>
       </div>
