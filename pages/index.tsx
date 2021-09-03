@@ -1,6 +1,7 @@
 import React from 'react';
 import type { NextPage, InferGetStaticPropsType } from 'next';
 import { MyHead } from '../components/head';
+import { Footer } from '../components/footer';
 import style from '../css/homesection.module.css';
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
@@ -49,13 +50,14 @@ function renderSection(section: Section): JSX.Element {
 
 const Home: NextPage<Props> = () => {
   return (
-    <div>
+    <>
       <MyHead />
       <main>
         <h2>index of nna774.net</h2>
         <div className={style.flexContainer}>{sections.map(renderSection)}</div>
       </main>
-    </div>
+      <Footer />
+    </>
   );
 };
 
