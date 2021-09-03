@@ -30,7 +30,7 @@ jobs:
       - persist_to_workspace:
           root: ~/workdir
           paths:
-            - build/*
+            - out/*
   deploy:
     executor: default
     working_directory: ~/workdir
@@ -39,7 +39,7 @@ jobs:
           at: ~/workdir
       - run: echo "export PATH='$PATH:~/bin'" >> $BASH_ENV
       - aws-s3/sync:
-          from: build
+          from: out
           to: s3://nna774.net
 
 orbs:
