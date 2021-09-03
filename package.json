@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --check \"./**/*.{ts,tsx,js}\" --config .prettierrc",
+    "prettier:fix": "prettier --write --check \"./**/*.{ts,tsx,js}\" --config .prettierrc"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -17,6 +19,7 @@
     "@types/react": "17.0.19",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
+    "prettier": "^2.3.2",
     "typescript": "4.4.2"
   }
 }
