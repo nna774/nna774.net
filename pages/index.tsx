@@ -2,7 +2,7 @@ import React from 'react';
 import type { NextPage, InferGetStaticPropsType } from 'next';
 import { MyHead } from '../components/head';
 import { Footer } from '../components/footer';
-import style from '../css/homesection.module.css';
+import style from '../css/home.module.css';
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 

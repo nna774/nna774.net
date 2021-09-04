@@ -1,0 +1,30 @@
+.flexContainer {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.section {
+  border-style: dotted;
+  background-color: #cfc;
+  width: 25%;
+  margin: 10px;
+}
+
+.defaultFavicon a::before {
+  content: url('/img/glider20.png');
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAP1BMVEUAAAAWGQeUqTAVGAclOxRjnDWVqjA4TxldkjJoozeeuTVvpTZnozdnojeUqjA3ThlckjIqMA2ZrzEpLg21zzqYTqELAAAAUUlEQVQY042QSwrAUAgD5wCdnfc/azev+MHCcxMYDIkCAAEKQZ1AdUJVvYGrvQfFMrlZDBNq0mglbuBqP0E/lU7rInz3VeF8osmET65O+xb0AnGlDAhA5X2PAAAAAElFTkSuQmCC');
+  padding-right: 5px;
+}
+
+.pietFavicon a:before {
+  content: url('/img/piet.png');
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAqUExURQAAwAAA/wDAAAD/AMAAAMDAAMD///8AAP8A///AwP/A////AP//wP///6lRbiQAAABmSURBVAhbYygvL5k5/XC598zpDEBmWRoI5DCUp6WVI5jpZXBmWhmaaDZCbRJDuXs5xIQUEDMNxkxLQ2IqJQoKpnVkojHTEtMSMzo6IaJITDS16VAFaWkdOQjRZBQF14CyuVyl7uUAM8NOHM17Mm8AAAAASUVORK5CYII=');
+  padding-right: 5px;
+}
+
+.openyoFavicon a:before{
+  content: url('/img/OpenYo-20x20.png');
+  content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUAQMAAAC3R49OAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAADUExURSZ8p1CCBzkAAAALSURBVAgdY6AyAAAAUAAB714l7wAAAABJRU5ErkJggg==');
+  padding-right: 5px;
+}
