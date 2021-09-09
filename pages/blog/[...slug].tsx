@@ -1,7 +1,6 @@
 import { getPostBySlug, getAllPosts, Items, Slug } from '../../lib/api';
 import { markdownToHtml } from '../../lib/markdownToHtml';
 import Head from 'next/head';
-import { GetStaticPropsContext } from 'next';
 
 type Props = {
   post: Items;
