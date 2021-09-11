@@ -1,0 +1,11 @@
+*.scss
+*.css
+*.html
+public/
+flow-typed/
+vendor/
+
+out/
+.next/
+
+source/

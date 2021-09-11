@@ -1,0 +1,11 @@
+.h1::after {
+  text-align: left;
+  font-size: small;
+  color: purple;
+  font-family: monospace;
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  white-space: pre;
+  content: ";; This buffer is for notes you don't want to save, and for Lisp evaluation.\A;; If you want to create a file, visit that file with C-x C-f,\A;; then enter the text in that file's own buffer.";
+  display: block;
+}
